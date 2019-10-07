@@ -1,2 +1,71 @@
 // Load CSS Reset from NPM
-@import "~normalize.css"
+@import "~normalize.css", "variables";
+
+body {
+  background-color: $bg-color;
+  color: whitesmoke;
+  font-family: "Overpass Mono", monospace;
+  line-height: 2;
+}
+
+.wrapper {
+  width: 70vw;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: normal;
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #aca5b8;
+  }
+}
+
+.site-header {
+  margin-top: 3rem;
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    width: 20vw;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .navigation {
+    .nav-item {
+      color: whitesmoke;
+      text-transform: uppercase;
+      text-decoration: none;
+      margin-right: 2rem;
+      padding-bottom: 0.4rem;
+
+      &:first-of-type {
+        border-bottom: 3px solid $color16;
+      }
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      &:hover {
+        border-bottom: 3px solid $color16;
+      }
+    }
+
+    .cta {
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 0.6rem 1.4rem;
+      color: whitesmoke;
+      background-color: $color17;
+    }
+  }
+}
