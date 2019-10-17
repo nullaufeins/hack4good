@@ -12,19 +12,41 @@ body {
   width: 70vw;
   margin: 0 auto;
 
-  .content {
+  .hero {
     padding: 0 0.4rem;
+    width: 50%;
+    margin: 6rem 0;
+
+    h1 {
+      font-size: 2.4rem;
+    }
   }
 
-  h1 {
-    font-size: 3rem;
-    font-weight: normal;
+  .content {
+    padding: 0 0.4rem;
+    width: 50%;
+  }
+
+  h2 {
+    font-size: 1.8rem;
   }
 
   p {
     font-size: 1rem;
     font-weight: 300;
     color: #aca5b8;
+  }
+
+  .submission {
+    margin-top: 6rem;
+    .form-field {
+      display: flex;
+      margin-bottom: 2rem;
+    }
+    .form-field > label {
+      display: block;
+      width: 20%;
+    }
   }
 }
 
