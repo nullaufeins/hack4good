@@ -12,10 +12,10 @@ const config = {
   site_name: 'Hackolaus',
 
   // Your website's description, used for favicon meta tags
-  site_description: 'Landing Page for the Hackolaus hackathon',
+  site_description: 'Hackathon in Leipzig',
 
   // Your website's URL, used for sitemap
-  site_url: 'https://hackolaus.opentechculture.com',
+  site_url: 'http://hackolaus.netlify.com',
 
   // Google Analytics tracking ID (leave blank to disable)
   googleAnalyticsUA: '',
