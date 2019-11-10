@@ -1,0 +1,144 @@
+:root {
+  --bg-color: #261447;
+  --color1: #ff6c11;
+  --color2: #ff3864;
+  --color3: #2de2e6;
+  --color4: #261447;
+  --color5: #0d0221;
+  --color6: #241734;
+  --color7: #2e2157;
+  --color8: #fd3777;
+  --color9: #f706cf;
+  --color10: #fd1d53;
+  --color11: #023788;
+  --color12: #650d89;
+  --color13: #920075;
+  --color14: #f6019d;
+  --color15: #d40078;
+  --color16: #f9c80e;
+  --color17: #ff4365;
+  --color18: #540d6e;
+  --color19: #791e94;
+  --color20: #541388;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: whitesmoke;
+  font-family: 'Overpass Mono', monospace;
+  line-height: 2;
+}
+
+.wrapper {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.wrapper .hero {
+  padding: 0 0.4rem;
+  width: 100%;
+  margin: 4rem 0;
+}
+
+.wrapper .hero h1 {
+  font-size: 2rem;
+}
+
+.wrapper .content {
+  padding: 0 0.4rem;
+  width: 50%;
+}
+
+.wrapper h2 {
+  font-size: 1.8rem;
+}
+
+.wrapper p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #aca5b8;
+}
+
+.site-header {
+  margin-top: 3rem;
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header .logo {
+  width: 20vw;
+}
+
+.site-header .logo img {
+  width: 100%;
+}
+
+.site-header .navigation .nav-item {
+  color: whitesmoke;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 2rem;
+  padding-bottom: 0.4rem;
+}
+
+site-header .navigation .nav-item:first-of-type {
+  border-bottom: 3px solid var(--color16);
+}
+
+site-header .navigation .nav-item:last-of-type {
+  margin-right: 0;
+}
+
+site-header .navigation .nav-item:hover {
+  border-bottom: 3px solid var(--color16);
+}
+
+.site-header .navigation .cta {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.6rem 1.4rem;
+  color: whitesmoke;
+  background-color: var(--color10);
+}
+
+.main {
+  display: flex;
+}
+
+.graphic {
+  width: 50%;
+}
+
+#partners {
+  margin-top: 8rem;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.partners a {
+  width: 16%;
+}
+
+.partners a img {
+  width: 100%;
+}
+
+.agenda {
+  margin-top: 8rem;
+}
+
+.days {
+  display: flex;
+  justify-content: space-between;
+}
+
+.days li {
+  color: #aca5b8;
+}
