@@ -22,10 +22,20 @@
   --color20: #541388;
 }
 
+a,
+a:link,
+a:visited {
+  color: var(--color15);
+}
+
+a:hover {
+  color: var(--color14);
+}
+
 body {
   background-color: var(--bg-color);
   color: whitesmoke;
-  font-family: 'Overpass Mono', monospace;
+  font-family: "Overpass Mono", monospace;
   line-height: 2;
 }
 
@@ -47,6 +57,10 @@ body {
 .wrapper .content {
   padding: 0 0.4rem;
   width: 50%;
+}
+
+.wrapper h1 {
+  font-size: 1.9em;
 }
 
 .wrapper h2 {
@@ -130,7 +144,9 @@ site-header .navigation .nav-item:hover {
   width: 100%;
 }
 
-.agenda {
+.agenda,
+.faq,
+.coc {
   margin-top: 8rem;
   margin-bottom: 8rem;
 }
@@ -142,4 +158,8 @@ site-header .navigation .nav-item:hover {
 
 .days li {
   color: #aca5b8;
+}
+
+.faq {
+  width: 100%;
 }
