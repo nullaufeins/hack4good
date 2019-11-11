@@ -59,6 +59,10 @@ body {
   width: 50%;
 }
 
+.wrapper h1 {
+  font-size: 1.9em;
+}
+
 .wrapper h2 {
   font-size: 1.8rem;
 }
@@ -141,7 +145,8 @@ site-header .navigation .nav-item:hover {
 }
 
 .agenda,
-.faq {
+.faq,
+.coc {
   margin-top: 8rem;
   margin-bottom: 8rem;
 }
