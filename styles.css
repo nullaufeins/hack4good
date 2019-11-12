@@ -152,7 +152,8 @@ body {
 .agenda,
 .faq,
 .coc,
-.skills .ngos {
+.skills,
+.ngos {
   margin-top: 8rem;
   margin-bottom: 8rem;
 }
@@ -203,6 +204,7 @@ body {
 }
 
 .button-wrapper {
+  margin-top: 4rem;
   display: flex;
   justify-content: center;
 }
@@ -254,5 +256,9 @@ body {
   .wrapper .content,
   .wrapper .graphic {
     width: 100%;
+  }
+  .role {
+    flex: 1 1 100%;
+    padding: 0;
   }
 }
