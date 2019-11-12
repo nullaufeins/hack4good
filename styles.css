@@ -114,10 +114,27 @@ body {
   white-space: nowrap;
 }
 
+.cta {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1rem 4rem;
+  display: inline-block;
+  margin-top: 2rem;
+  color: whitesmoke;
+  background-color: var(--color10);
+  white-space: nowrap;
+}
+
 .site-header .navigation a.cta,
 .site-header .navigation a.cta:link,
 .site-header .navigation a.cta:hover,
-.site-header .navigation a.cta:active {
+.site-header .navigation a.cta:active,
+.site-header .navigation a.cta:visited,
+.cta,
+.cta:link,
+.cta:hover,
+.cta:active,
+.cta:visited {
   color: whitesmoke;
 }
 
