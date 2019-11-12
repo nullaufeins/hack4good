@@ -105,7 +105,8 @@ body {
   border-bottom: 3px solid var(--color16);
 }
 
-.site-header .navigation .cta {
+.site-header .navigation .cta,
+.button-wrapper .cta {
   text-transform: uppercase;
   text-decoration: none;
   padding: 0.6rem 1.4rem;
@@ -168,9 +169,40 @@ body {
 .agenda,
 .faq,
 .coc,
+<<<<<<< HEAD
 .ngos {
+=======
+.skills {
+>>>>>>> add cta
   margin-top: 8rem;
   margin-bottom: 8rem;
+}
+
+.roles {
+  display: flex;
+  flex-wrap: wrap;
+}
+.role {
+  flex: 1 1 40%;
+  padding-right: 1rem;
+}
+.role h3 {
+  position: relative;
+}
+.role h3::after {
+  content: " ";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 2px solid white;
+  width: 30%;
+  transition: 0.5s all ease;
+  transform-origin: left;
+}
+.role h3:hover:after {
+  transform: scaleX(2);
+  border-color: var(--color10);
 }
 
 .days {
@@ -234,4 +266,12 @@ body {
   .wrapper .graphic {
     width: 100%;
   }
+.no-decoration {
+  color: whitesmoke !important;
+  text-decoration: none;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
 }
