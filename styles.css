@@ -169,16 +169,8 @@ body {
 .agenda,
 .faq,
 .coc,
-<<<<<<< HEAD
-<<<<<<< HEAD
-.ngos {
-=======
-.skills {
->>>>>>> add cta
-=======
 .skills,
 .ngos {
->>>>>>> update style and navigation
   margin-top: 8rem;
   margin-bottom: 8rem;
 }
@@ -228,13 +220,6 @@ body {
   text-decoration: none;
 }
 
-.button-wrapper {
-  margin-top: 4rem;
-  display: flex;
-  justify-content: center;
-}
-
->>>>>>> update style and navigation
 @media screen and (max-width: 1290px) {
   .wrapper {
     width: 90vw;
@@ -283,19 +268,8 @@ body {
   .wrapper .graphic {
     width: 100%;
   }
-<<<<<<< HEAD
-.no-decoration {
-  color: whitesmoke !important;
-  text-decoration: none;
-}
-
-.button-wrapper {
-  display: flex;
-  justify-content: center;
-=======
   .role {
     flex: 1 1 100%;
     padding: 0;
   }
->>>>>>> update style and navigation
 }
