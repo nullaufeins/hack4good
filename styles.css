@@ -97,10 +97,6 @@ body {
   padding-bottom: 0.4rem;
 }
 
-.site-header .navigation .nav-item:first-of-type {
-  border-bottom: 3px solid var(--color16);
-}
-
 .site-header .navigation .nav-item:last-of-type {
   margin-right: 0;
 }
@@ -115,6 +111,7 @@ body {
   padding: 0.6rem 1.4rem;
   color: whitesmoke;
   background-color: var(--color10);
+  white-space: nowrap;
 }
 
 .site-header .navigation a.cta,
@@ -194,6 +191,30 @@ body {
 
   .site-header .navigation {
     margin-top: 10px;
-    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navigation a {
+    margin-top: 20px;
+    display: block;
+  }
+
+  .site-header {
+    height: auto;
+  }
+
+  .site-header .navigation .nav-item {
+    margin-right: 0;
+  }
+
+  .main,
+  .days {
+    display: block;
+  }
+
+  .wrapper .content,
+  .wrapper .graphic {
+    width: 100%;
   }
 }
