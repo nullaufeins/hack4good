@@ -26,6 +26,7 @@ a,
 a:link,
 a:visited {
   color: var(--color15);
+  text-decoration: none;
 }
 
 a:hover {
@@ -45,13 +46,8 @@ body {
 }
 
 .wrapper .hero {
-  padding: 0 0.4rem;
   width: 100%;
-  margin: 4rem 0;
-}
-
-.wrapper .hero h1 {
-  font-size: 2rem;
+  margin: 4rem 0 2rem 0;
 }
 
 .wrapper .content {
