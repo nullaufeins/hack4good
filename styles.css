@@ -103,12 +103,9 @@ body {
 
 .site-header .navigation .cta,
 .button-wrapper .cta {
-  text-transform: uppercase;
   text-decoration: none;
   padding: 0.6rem 1.4rem;
   color: whitesmoke;
-  background-color: var(--color10);
-  white-space: nowrap;
 }
 
 .cta {
@@ -138,6 +135,18 @@ body {
   left: 20px;
 }
 
+.cta,
+.cta:link,
+.cta:active,
+.cta:visited {
+  color: whitesmoke;
+}
+
+.cta:hover {
+  background-color: var(--color14);
+  color: whitesmoke;
+}
+
 .cta:hover:before {
   animation: tada 1.1s;
 }
@@ -151,19 +160,6 @@ body {
     transform: scale(4.5);
     opacity: 0;
   }
-}
-
-.site-header .navigation a.cta,
-.site-header .navigation a.cta:link,
-.site-header .navigation a.cta:hover,
-.site-header .navigation a.cta:active,
-.site-header .navigation a.cta:visited,
-.cta,
-.cta:link,
-.cta:hover,
-.cta:active,
-.cta:visited {
-  color: whitesmoke;
 }
 
 .main {
