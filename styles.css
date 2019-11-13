@@ -122,17 +122,19 @@ body {
 
 .cta:before {
   display: block;
-  content: url(./assets/stars-colors.svg);
+  content: url(./assets/snowflakes.svg);
   position: absolute;
-  background-position: center;
-  top: 0;
-  left: 60px;
-  transform: scale(0.8);
+  left: -160px;
+  top: -150px;
+  transform: scale(0.4);
   z-index: -10;
+  display: block;
+  opacity: 0;
 }
 
 .site-header .navigation .cta:before {
-  left: 20px;
+  left: -200px;
+  top: -150px;
 }
 
 .cta,
