@@ -247,6 +247,21 @@ body {
     display: block;
   }
 
+  .partners {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .partners a img {
+    width: 60vw;
+    padding: 15px 0;
+  }
+
+  .partners a img.gdg {
+    width: 60vw;
+    padding: 0;
+  }
+
   .site-header {
     height: auto;
   }
