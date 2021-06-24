@@ -1,0 +1,320 @@
+:root {
+  --bg-color: #261447;
+  --color1: #ff6c11;
+  --color2: #ff3864;
+  --color3: #2de2e6;
+  --color4: #261447;
+  --color5: #0d0221;
+  --color6: #241734;
+  --color7: #2e2157;
+  --color8: #fd3777;
+  --color9: #f706cf;
+  --color10: #fd1d53;
+  --color11: #023788;
+  --color12: #650d89;
+  --color13: #920075;
+  --color14: #f6019d;
+  --color15: #d40078;
+  --color16: #f9c80e;
+  --color17: #ff4365;
+  --color18: #540d6e;
+  --color19: #791e94;
+  --color20: #541388;
+}
+
+a,
+a:link,
+a:visited {
+  color: var(--color15);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color14);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: whitesmoke;
+  font-family: "Overpass Mono", monospace;
+  line-height: 2;
+}
+
+.wrapper {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.wrapper .hero {
+  width: 100%;
+  margin: 4rem 0 2rem 0;
+}
+
+.wrapper .content {
+  padding: 0 0.4rem;
+  width: 50%;
+}
+
+.wrapper h1 {
+  font-size: 1.9em;
+}
+
+.wrapper h2 {
+  font-size: 1.8rem;
+}
+
+.wrapper p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #aca5b8;
+}
+
+.site-header {
+  margin-top: 3rem;
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header .logo {
+  width: 20vw;
+}
+
+.site-header .logo img {
+  width: 100%;
+}
+
+.site-header .navigation .nav-item {
+  color: whitesmoke;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 2rem;
+  padding-bottom: 0.4rem;
+}
+
+.site-header .navigation .nav-item:last-of-type {
+  margin-right: 0;
+}
+
+.site-header .navigation .nav-item:hover {
+  border-bottom: 3px solid var(--color16);
+}
+
+.site-header .navigation .cta,
+.button-wrapper .cta {
+  text-decoration: none;
+  padding: 0.6rem 1.4rem;
+  color: whitesmoke;
+}
+
+.cta {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1rem 4rem;
+  display: inline-block;
+  margin-top: 2rem;
+  color: whitesmoke;
+  background-color: var(--color10);
+  white-space: nowrap;
+  position: relative;
+}
+
+.cta:before {
+  display: block;
+  content: url(./assets/snowflakes.svg);
+  position: absolute;
+  left: -160px;
+  top: -150px;
+  transform: scale(0.4);
+  z-index: -10;
+  display: block;
+  opacity: 0;
+}
+
+.site-header .navigation .cta:before {
+  left: -200px;
+  top: -150px;
+}
+
+.cta,
+.cta:link,
+.cta:active,
+.cta:visited {
+  color: whitesmoke;
+}
+
+.cta:hover {
+  background-color: var(--color14);
+  color: whitesmoke;
+}
+
+.cta:hover:before {
+  animation: tada 1.1s;
+}
+
+.cta-ngos {
+  padding-top: 2rem;
+}
+
+@keyframes tada {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(4.5);
+    opacity: 0;
+  }
+}
+
+.main {
+  display: flex;
+}
+
+.graphic {
+  width: 50%;
+  padding-top: 50px;
+}
+
+#partners, #community {
+  margin-top: 8rem;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.partners a {
+  width: 16%;
+}
+
+.partners a img {
+  width: 100%;
+}
+
+.agenda,
+.faq,
+.coc,
+.skills,
+.ngos {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.roles {
+  display: flex;
+  flex-wrap: wrap;
+}
+.role {
+  flex: 1 1 40%;
+  padding-right: 1rem;
+}
+.role h3 {
+  position: relative;
+}
+.role h3::after {
+  content: " ";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 2px solid white;
+  width: 30%;
+  transition: 0.5s all ease;
+  transform-origin: left;
+}
+.role h3:hover:after {
+  transform: scaleX(2);
+  border-color: var(--color10);
+}
+
+.days {
+  display: flex;
+  justify-content: space-between;
+}
+
+.days li {
+  color: #aca5b8;
+}
+
+.faq {
+  width: 100%;
+}
+
+.no-decoration {
+  color: whitesmoke !important;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1290px) {
+  .wrapper {
+    width: 90vw;
+  }
+
+  .site-header .logo {
+    width: 290px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .site-header {
+    display: block;
+    text-align: center;
+  }
+
+  .site-header .logo {
+    margin: 0 auto;
+  }
+
+  .site-header .navigation {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navigation a {
+    margin-top: 20px;
+    display: block;
+  }
+
+  .partners {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .partners a img {
+    width: 60vw;
+    padding: 15px 0;
+  }
+
+  .partners a img.gdg {
+    width: 60vw;
+    padding: 0;
+  }
+
+  .site-header {
+    height: auto;
+  }
+
+  .site-header .navigation .nav-item {
+    margin-right: 0;
+  }
+
+  .main,
+  .days {
+    display: block;
+  }
+
+  .wrapper .content,
+  .wrapper .graphic {
+    width: 100%;
+  }
+  .role {
+    flex: 1 1 100%;
+    padding: 0;
+  }
+}
