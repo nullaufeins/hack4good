@@ -177,7 +177,8 @@ body {
   padding-top: 50px;
 }
 
-#partners, #community {
+#partners,
+#community {
   margin-top: 8rem;
 }
 
@@ -200,7 +201,8 @@ body {
 .faq,
 .coc,
 .skills,
-.ngos {
+.ngos,
+.projects-2019 {
   margin-top: 8rem;
   margin-bottom: 8rem;
 }
