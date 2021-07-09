@@ -182,6 +182,14 @@ body {
   margin-top: 8rem;
 }
 
+#devhaus {
+  width: 70%;
+}
+
+#hackerinnen {
+  width: 80%;
+}
+
 .partners {
   display: flex;
   justify-content: space-around;
