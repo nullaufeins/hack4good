@@ -1,5 +1,6 @@
 :root {
   --bg-color: #261447;
+  --font-color: #aca5b8;
   --color1: #ff6c11;
   --color2: #ff3864;
   --color3: #2de2e6;
@@ -40,6 +41,10 @@ body {
   line-height: 2;
 }
 
+ul li {
+  color: var(--font-color);
+}
+
 .wrapper {
   width: 70vw;
   margin: 0 auto;
@@ -66,7 +71,7 @@ body {
 .wrapper p {
   font-size: 1rem;
   font-weight: 300;
-  color: #aca5b8;
+  color: var(--font-color);
 }
 
 .site-header {
@@ -172,18 +177,13 @@ body {
   display: flex;
 }
 
-.graphic {
-  width: 50%;
-  padding-top: 50px;
-}
-
 #partners,
 #community {
   margin-top: 8rem;
 }
 
 #devhaus {
-  width: 70%;
+  width: 60%;
 }
 
 #hackerinnen {
@@ -199,6 +199,8 @@ body {
 
 .partners a {
   width: 16%;
+  text-align: center;
+  line-height: 0;
 }
 
 .partners a img {
@@ -248,7 +250,7 @@ body {
 }
 
 .days li {
-  color: #aca5b8;
+  color: var(--font-color);
 }
 
 .faq {
@@ -258,6 +260,22 @@ body {
 .no-decoration {
   color: whitesmoke !important;
   text-decoration: none;
+}
+
+.sponsors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.sponsors > div {
+  width: 40%;
+}
+
+.sponsors img {
+  width: 100%;
+  max-width: 200px;
+  margin-top: 4rem;
 }
 
 @media screen and (max-width: 1290px) {
@@ -301,9 +319,16 @@ body {
     padding: 15px 0;
   }
 
-  .partners a img.gdg {
-    width: 60vw;
-    padding: 0;
+  .sponsors {
+    display: inline-block;
+  }
+
+  .sponsors > div {
+    width: 100%;
+  }
+
+  .sponsors-img {
+    text-align: center;
   }
 
   .site-header {
