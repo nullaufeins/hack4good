@@ -177,6 +177,11 @@ ul li {
   display: flex;
 }
 
+.graphic {
+  width: 50%;
+  padding-top: 50px;
+}
+
 #partners,
 #community {
   margin-top: 8rem;
