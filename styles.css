@@ -212,6 +212,18 @@ ul li {
   width: 100%;
 }
 
+.sponsor-card {
+  padding: 1rem;
+  background-color: whitesmoke;
+  color: var(--color16);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.sponsor-card p {
+  margin-bottom: 0;
+}
+
 .agenda,
 .faq,
 .coc,
