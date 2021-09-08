@@ -295,6 +295,13 @@ ul li {
   margin-top: 4rem;
 }
 
+.ngos .read-more-link {
+  cursor: pointer;
+}
+.ngos span.read-more-text.hidden {
+  display: none;
+}
+
 @media screen and (max-width: 1290px) {
   .wrapper {
     width: 90vw;
