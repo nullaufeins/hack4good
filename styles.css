@@ -200,8 +200,8 @@ ul li {
   justify-content: space-around;
   align-items: stretch;
   width: 100%;
-  gap: 2rem;
-  max-width:700px;
+  /*gap: 2rem;*/
+  max-width:800px;
   margin: 0 auto;
   /* max width & margin wieder löschen, wenn 4. sponsor wieder dabei ist*/
 
@@ -228,6 +228,7 @@ ul li {
   display: flex;
   align-items: center;
   position:relative;
+  margin:30px;
 }
 
 .sponsor-card p {
