@@ -41,8 +41,11 @@ body {
   line-height: 2;
 }
 
+
 ul li {
   color: var(--font-color);
+  font-family: "Overpass", sans-serif;
+  font-weight: 300;
 }
 
 .wrapper {
@@ -69,8 +72,10 @@ ul li {
 }
 
 .wrapper p {
+  font-family: "Overpass", sans-serif;
   font-size: 1rem;
   font-weight: 300;
+  line-height: 1.75;
   color: var(--font-color);
 }
 
@@ -208,7 +213,7 @@ ul li {
 }
 
 .partners a {
-  width: 16%;
+  width: 20%;
   text-align: center;
   line-height: 0;
 }
@@ -222,6 +227,7 @@ ul li {
   background-color: whitesmoke;
   color: var(--color16);
   border-radius: 10px;
+  min-height: 150px;
   text-align: center;
   flex: 1 1 0px;
   cursor:pointer;
