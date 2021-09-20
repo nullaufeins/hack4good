@@ -183,14 +183,19 @@ ul li {
 }
 
 .graphic {
-  width: 50%;
+  width: 40%;
   padding-top: 50px;
+  margin: 0 auto;
 }
 
-#partners,
-#community {
-  margin-top: 8rem;
+.small-spacer {
+  height:1em;
 }
+
+#ngos h3 {
+  margin-top: 2em;
+}
+
 
 #devhaus {
   width: 60%;
@@ -259,9 +264,11 @@ ul li {
 .coc,
 .skills,
 .ngos,
-.projects-2019 {
-  margin-top: 8rem;
-  margin-bottom: 8rem;
+.projects-2019,
+#partners,
+#community {
+  margin-top: 11rem;
+  margin-bottom: 11rem;
 }
 
 .roles {
@@ -272,10 +279,10 @@ ul li {
   flex: 1 1 40%;
   padding-right: 1rem;
 }
-.role h3 {
+.role h3, .ngo h3 {
   position: relative;
 }
-.role h3::after {
+.role h3::after, .ngo h3::after {
   content: " ";
   height: 100%;
   position: absolute;
@@ -286,7 +293,7 @@ ul li {
   transition: 0.5s all ease;
   transform-origin: left;
 }
-.role h3:hover:after {
+.role h3:hover:after, .ngo h3:hover:after{
   transform: scaleX(2);
   border-color: var(--color10);
 }
