@@ -207,14 +207,11 @@ ul li {
 
 .partners {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-around;
   align-items: stretch;
   width: 100%;
-  /*gap: 2rem;*/
-  max-width:800px;
-  margin: 0 auto;
-  /* max width & margin wieder löschen, wenn 4. sponsor wieder dabei ist*/
-
+  gap: 2rem;
 }
 
 .partners a {
@@ -233,13 +230,14 @@ ul li {
   color: var(--color16);
   border-radius: 10px;
   min-height: 150px;
+  min-width: 100px;
   text-align: center;
   flex: 1 1 0px;
   cursor:pointer;
   display: flex;
   align-items: center;
-  position:relative;
-  margin:30px;
+  position: relative;
+  margin: 30px;
 }
 
 .sponsor-card p {
