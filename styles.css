@@ -231,6 +231,7 @@ ul li {
   border-radius: 10px;
   min-height: 150px;
   min-width: 100px;
+  max-width: 150px;
   text-align: center;
   flex: 1 1 0px;
   cursor:pointer;
