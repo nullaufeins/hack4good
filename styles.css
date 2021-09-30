@@ -130,6 +130,7 @@ ul li {
   position: relative;
 }
 
+
 .cta:before {
   display: block;
   content: url(./assets/snowflakes.svg);
@@ -192,8 +193,15 @@ ul li {
   height:1em;
 }
 
-#ngos h3 {
-  margin-top: 2em;
+.ngo-slot {
+  border: 2px solid white;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.free {
+  border: 2px dashed white;
 }
 
 
