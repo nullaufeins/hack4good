@@ -169,6 +169,11 @@ ul li {
   padding-top: 2rem;
 }
 
+.cta-projects {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
 @keyframes tada {
   0% {
     transform: scale(0);
@@ -196,9 +201,13 @@ ul li {
 
 .ngo-slot {
   border: 2px solid white;
-    border-radius: 30px;
-    padding: 20px;
-    margin-bottom: 20px;
+  border-radius: 30px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.ngo-slots {
+  padding: 2rem 5rem 0 5rem;
 }
 
 .free {
