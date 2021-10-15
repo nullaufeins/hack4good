@@ -430,4 +430,8 @@ ul li {
     flex: 1 1 100%;
     padding: 0;
   }
+
+  .ngo-slots {
+    padding: 1rem;
+  }
 }
