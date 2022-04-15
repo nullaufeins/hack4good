@@ -1,6 +1,8 @@
 :root {
-  --bg-color: #261447;
-  --font-color: #aca5b8;
+  --bg-color: #84f7ca;
+  --font-color: #3e00ff;
+  --link-color: #170055;
+  --complementary-color: #ae00fb;
   --color1: #ff6c11;
   --color2: #ff3864;
   --color3: #2de2e6;
@@ -21,30 +23,79 @@
   --color18: #540d6e;
   --color19: #791e94;
   --color20: #541388;
+  --main-font: Archivo, Arial, sans-serif;
+  --heading-font: 'Darker Grotesque', Arial, sans-serif;
+}
+
+
+
+body {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  font-family: var(--main-font);
+  line-height: 2;
+}
+
+hr {
+  height: 2px;
+  background-color: var(--font-color);
+  border-style: none;
 }
 
 a,
 a:link,
 a:visited {
-  color: var(--color15);
+  color: var(--link-color);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--color14);
+  color: var(--complementary-color);
 }
 
-body {
-  background-color: var(--bg-color);
-  color: whitesmoke;
-  font-family: "Overpass Mono", monospace;
-  line-height: 2;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
 }
+
+
+
+
+h1.hero {
+  font-size: 4rem;
+  line-height: 3rem;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 3.2rem;
+  line-height: 2rem;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 2.5rem;
+  line-height: 1.8rem;
+}
+
+
+#community {
+  background-color: var(--font-color);
+  color: var(--bg-color);
+  padding: 20px;
+  border-radius: 50px;
+}
+
 
 
 ul li {
   color: var(--font-color);
-  font-family: "Overpass", sans-serif;
+  font-family: var(--main-font);
   font-weight: 300;
 }
 
@@ -55,7 +106,6 @@ ul li {
 
 .wrapper .hero {
   width: 100%;
-  margin: 4rem 0 2rem 0;
 }
 
 .wrapper .content {
@@ -63,16 +113,12 @@ ul li {
   width: 50%;
 }
 
-.wrapper h1 {
-  font-size: 1.9em;
-}
 
-.wrapper h2 {
-  font-size: 1.8rem;
-}
+
+
 
 .wrapper p {
-  font-family: "Overpass", sans-serif;
+  font-family: var(--main-font);
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.75;
@@ -80,8 +126,7 @@ ul li {
 }
 
 .site-header {
-  margin-top: 3rem;
-  height: 8rem;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -97,7 +142,7 @@ ul li {
 }
 
 .site-header .navigation .nav-item {
-  color: whitesmoke;
+  color: var(--font-color);
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 2rem;
@@ -109,26 +154,26 @@ ul li {
 }
 
 .site-header .navigation .nav-item:hover {
-  border-bottom: 3px solid var(--color16);
+  border-bottom: 3px solid var(--font-color);
 }
 
 .site-header .navigation .cta,
 .button-wrapper .cta {
   text-decoration: none;
-  padding: 0.6rem 1.4rem;
+  padding: 0.3rem 1rem;
   color: whitesmoke;
 }
 
 .cta {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1rem 4rem;
+  padding: 1rem 2rem;
   display: inline-block;
-  margin-top: 2rem;
   color: whitesmoke;
-  background-color: var(--color10);
+  background-color: var(--link-color);
   white-space: nowrap;
   position: relative;
+  border-radius: 100px;
 }
 
 
@@ -136,7 +181,7 @@ ul li {
   display: block;
   content: url(./assets/snowflakes.svg);
   position: absolute;
-  left: -160px;
+  left: -150px;
   top: -150px;
   transform: scale(0.4);
   z-index: -10;
@@ -146,7 +191,7 @@ ul li {
 
 .site-header .navigation .cta:before {
   left: -200px;
-  top: -150px;
+  top: -160px;
 }
 
 .cta,
@@ -157,7 +202,7 @@ ul li {
 }
 
 .cta:hover {
-  background-color: var(--color14);
+  background-color: var(--complementary-color);
   color: whitesmoke;
 }
 
@@ -179,6 +224,7 @@ ul li {
     transform: scale(0);
     opacity: 1;
   }
+
   100% {
     transform: scale(4.5);
     opacity: 0;
@@ -186,7 +232,11 @@ ul li {
 }
 
 .main {
+  min-height: 80vh;
   display: flex;
+  align-items: center;
+  margin: 30px auto;
+
 }
 
 .graphic {
@@ -196,11 +246,11 @@ ul li {
 }
 
 .small-spacer {
-  height:1em;
+  height: 1em;
 }
 
 .ngo-slot {
-  border: 2px solid white;
+  border: 2px solid var(--font-color);
   border-radius: 30px;
   padding: 20px;
   margin-bottom: 20px;
@@ -227,7 +277,7 @@ ul li {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  align-items: stretch;
+  align-items: center;
   width: 100%;
   gap: 2rem;
 }
@@ -252,7 +302,7 @@ ul li {
   max-width: 150px;
   text-align: center;
   flex: 1 1 0px;
-  cursor:pointer;
+  cursor: pointer;
   display: flex;
   align-items: center;
   position: relative;
@@ -265,14 +315,14 @@ ul li {
 
 .sponsor-badge {
   width: 30%;
-  position:absolute;
+  position: absolute;
 
   top: -20px;
-  right:-20px;
+  right: -20px;
 }
 
 .sponsor-card-img {
-  width:100%;
+  width: 100%;
   height: auto;
 }
 
@@ -283,6 +333,7 @@ ul li {
 .ngos,
 .projects-2019,
 #partners,
+#sponsors,
 #community {
   margin-top: 11rem;
   margin-bottom: 11rem;
@@ -292,27 +343,35 @@ ul li {
   display: flex;
   flex-wrap: wrap;
 }
+
 .role {
   flex: 1 1 40%;
   padding-right: 1rem;
 }
-.role h3, .ngo h3 {
+
+.role h3,
+.ngo h3 {
   position: relative;
+  margin-bottom: 10px;
 }
-.role h3::after, .ngo h3::after {
+
+.role h3::after,
+.ngo h3::after {
   content: " ";
   height: 100%;
   position: absolute;
-  top: 0;
+  top: 9px;
   left: 0;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid var(--link-color);
   width: 30%;
   transition: 0.5s all ease;
   transform-origin: left;
 }
-.role h3:hover:after, .ngo h3:hover:after{
+
+.role h3:hover:after,
+.ngo h3:hover:after {
   transform: scaleX(2);
-  border-color: var(--color10);
+  border-color: var(--complementary-color);
 }
 
 .days {
@@ -339,7 +398,7 @@ ul li {
   justify-content: space-around;
 }
 
-.sponsors > div {
+.sponsors>div {
   width: 40%;
 }
 
@@ -352,6 +411,7 @@ ul li {
 .ngos .read-more-link {
   cursor: pointer;
 }
+
 .ngos span.read-more-text.hidden {
   display: none;
 }
@@ -382,10 +442,7 @@ ul li {
 }
 
 @media screen and (max-width: 700px) {
-  .navigation a {
-    margin-top: 20px;
-    display: block;
-  }
+
 
   .partners {
     display: inline-block;
@@ -401,7 +458,7 @@ ul li {
     display: inline-block;
   }
 
-  .sponsors > div {
+  .sponsors>div {
     width: 100%;
   }
 
@@ -414,7 +471,7 @@ ul li {
   }
 
   .site-header .navigation .nav-item {
-    margin-right: 0;
+    margin: 0 10px;
   }
 
   .main,
@@ -426,6 +483,7 @@ ul li {
   .wrapper .graphic {
     width: 100%;
   }
+
   .role {
     flex: 1 1 100%;
     padding: 0;
