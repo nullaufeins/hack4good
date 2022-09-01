@@ -501,9 +501,8 @@ ul li {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
+    position: sticky;
     bottom: 20px;
-    right: 20px;
     color: transparent;
     border-radius: 100px;
     width: 40px;
@@ -511,6 +510,8 @@ ul li {
     background: var(--font-color);
     transform: rotate(45deg);
     font-size: 0;
+    margin-top: 120vh;
+    margin-left: calc(100vw - 70px);
   }
 
   .scroll-top:after {
