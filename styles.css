@@ -439,6 +439,10 @@ ul li {
   }
 }
 
+.scroll-top {
+  display: none;
+}
+
 @media screen and (max-width: 700px) {
 
 
@@ -489,5 +493,31 @@ ul li {
 
   .ngo-slots {
     padding: 1rem;
+  }
+
+  a.scroll-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: transparent;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    background: var(--font-color);
+    transform: rotate(45deg);
+    font-size: 0;
+  }
+
+  .scroll-top:after {
+    content: '';
+    border-top: 2px solid var(--bg-color);
+    border-left: 2px solid var(--bg-color);
+    margin-top: 4px;
+    margin-left: 4px;
+    width: 10px;
+    height: 10px;
   }
 }
