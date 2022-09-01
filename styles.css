@@ -27,7 +27,9 @@
   --heading-font: 'Darker Grotesque', Arial, sans-serif;
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: var(--bg-color);
