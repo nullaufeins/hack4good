@@ -294,7 +294,7 @@ ul li {
 
 .sponsor-card {
   padding: 2rem;
-  background-color: whitesmoke;
+  background-color: white;
   color: var(--color16);
   border-radius: 10px;
   min-height: 150px;
@@ -461,7 +461,7 @@ ul li {
     margin-top: 5rem;
     margin-bottom: 5rem;
   }
-  
+
   .partners {
     display: inline-block;
     text-align: center;
