@@ -35,6 +35,29 @@ a:hover {
   color: var(--complementary-color);
 }
 
+
+
+.icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  filter: invert(32%) sepia(96%) saturate(3951%) hue-rotate(323deg) brightness(96%) contrast(103%);
+  margin-right: 1rem;
+}
+
+.icon-twitter {
+  background-image: url(assets/twitter.svg);
+}
+.icon-insta {
+  background-image: url(assets/insta.svg);
+  
+}
+.icon:hover {
+  filter: invert(83%) sepia(97%) saturate(464%) hue-rotate(338deg) brightness(107%) contrast(105%);
+}
+
+
 h1,
 h2,
 h3,
