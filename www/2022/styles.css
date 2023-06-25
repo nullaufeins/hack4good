@@ -1,8 +1,28 @@
 :root {
-  --bg-color: #24f9c3;
-  --font-color: #2d7def;
-  --link-color: #f8256c;
-  --complementary-color: #f9f924;
+  --bg-color: #84f7ca;
+  --font-color: #3e00ff;
+  --link-color: #170055;
+  --complementary-color: #ae00fb;
+  --color1: #ff6c11;
+  --color2: #ff3864;
+  --color3: #2de2e6;
+  --color4: #261447;
+  --color5: #0d0221;
+  --color6: #241734;
+  --color7: #2e2157;
+  --color8: #fd3777;
+  --color9: #f706cf;
+  --color10: #fd1d53;
+  --color11: #023788;
+  --color12: #650d89;
+  --color13: #920075;
+  --color14: #f6019d;
+  --color15: #d40078;
+  --color16: #f9c80e;
+  --color17: #ff4365;
+  --color18: #540d6e;
+  --color19: #791e94;
+  --color20: #541388;
   --main-font: Archivo, Arial, sans-serif;
   --heading-font: 'Darker Grotesque', Arial, sans-serif;
 }
@@ -44,31 +64,37 @@ h6 {
   font-family: var(--heading-font);
 }
 
+
+
+
 h1.hero {
   font-size: 4rem;
   line-height: 3.5rem;
   margin: 0;
-  margin-bottom: 3rem;
+  margin-bottom: 20px;
 }
 
 h2 {
   font-size: 3.2rem;
   line-height: 2.4rem;
-  margin-top: 2rem;
+  margin-top: 0;
 }
 
-#community {
+h3 {
+  font-size: 2.5rem;
+  line-height: 2rem;
+}
+
+#sponsors,
+#community,
+#partners {
   background-color: var(--font-color);
   color: var(--bg-color);
   padding: 20px;
-  border-radius: 20px;
-  width: 80%;
+  border-radius: 50px;
 }
 
-#community {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
+
 
 ul li {
   color: var(--font-color);
@@ -77,22 +103,22 @@ ul li {
 }
 
 .wrapper {
-  width: 80vw;
+  width: 70vw;
   margin: 0 auto;
 }
 
 .wrapper .hero {
-  width: 90%;
+  width: 100%;
 }
 
 .wrapper .content {
   padding: 0 0.4rem;
-  width: 90%;
+  width: 50%;
 }
 
 .wrapper p {
   font-family: var(--main-font);
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 300;
   line-height: 1.75;
   color: var(--font-color);
@@ -243,6 +269,10 @@ ul li {
   width: 60%;
 }
 
+#hackerinnen {
+  width: 80%;
+}
+
 .partners {
   display: flex;
   flex-flow: row wrap;
@@ -303,7 +333,8 @@ ul li {
 .ngos,
 .projects-2019,
 #partners,
-#sponsors {
+#sponsors,
+#community {
   margin-top: 11rem;
   margin-bottom: 11rem;
 }
