@@ -444,18 +444,35 @@ ul li {
 }
 
 @media screen and (max-width: 700px) {
+  #top {
+    font-size: 3.2rem;
+    line-height: 3.4rem;
+  }
+  h1.hero {
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    margin-top: 2rem;
+  }
 
-  .agenda,
-  .faq,
-  .coc,
-  .skills,
-  .ngos,
-  .projects-2019,
-  #partners,
-  #sponsors,
+  .wrapper p {
+    font-size: 1rem;
+  }
+
   #community {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
   }
 
   .partners {
