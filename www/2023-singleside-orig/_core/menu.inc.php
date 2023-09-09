@@ -1,4 +1,4 @@
-<nav>
+<nav class="navigation">
     <a href="<?= BASE_URL ?>/de/start" class="nav-item">Start</a>
     <a href="<?= BASE_URL ?>/de/agenta" class="nav-item">Agenta</a>
     <a href="<?= BASE_URL ?>/de/venue" class="nav-item">Venue</a>

@@ -1,7 +1,7 @@
 <div class="agenda" id="agenda">
     <h2>Agenda</h2>
     <div class="days">
-        <div>
+        <div class="friday">
             <h3>Friday,<br>October 7th 22</h3>
             <ul>
                 <li>18:00 - Doors open 🤗</li>
@@ -10,7 +10,7 @@
                 <li>00:00 - Charging batteries 🛌</li>
             </ul>
         </div>
-        <div>
+        <div class="saturday">
             <h3>Saturday,<br>October 8th 22</h3>
             <ul>
                 <li>10:00 - Doors open 🤗</li>
@@ -32,7 +32,7 @@
                 <li>Hacking all night</li>
             </ul>
         </div>
-        <div>
+        <div class="sunday">
             <h3>Sunday,<br>October 9th 22</h3>
             <ul>
                 <li>10:00 - Doors open 🤗</li>

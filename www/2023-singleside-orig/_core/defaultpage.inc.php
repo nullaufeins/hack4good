@@ -23,26 +23,21 @@
 </head>
 
 <body>
-    <div class="site-wrapper">
-        <header>
-            <div class="logo-line">
+    <div class="wrapper">
+        <header class="site-header">
+            <div class="logo">
                 <img src="<?= BASE_URL ?>/assets/logos/logo.svg" alt="Hackolaus" />
             </div>
-            <nav>
-                <?php require_once "menu.inc.php"; ?>
-            </nav>
-            <div class="participate-line">
-                <a href="https://www.meetup.com/opentechschool-leipzig/events/288270934/" target="_blank" rel="noopener noreferer">participate</a>
+
+            <?php require_once "menu.inc.php"; ?>
+
+            <div class="participate">
+                <a href="https://www.meetup.com/opentechschool-leipzig/events/288270934/" target="_blank"
+                    rel="noopener noreferrer" class="cta">Participate</a>
             </div>
         </header>
-        
-        <main>
-            <?php require_once "content.php"; ?>
-        </main>
 
-        <footer>
-            footer
-        </footer>
+        <?php require_once "content.php"; ?>
 
         <a href="#top" class="scroll-top">Scroll to top</a>
         <script type="application/javascript" src="hackolaus.js"></script>
