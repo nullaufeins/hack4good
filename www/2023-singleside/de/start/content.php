@@ -1,4 +1,4 @@
-<div id="details" class="main">
+<div class="start">
     <div class="content">
         <h1 class="hero">hackathon to give back to the good</h1>
         <div style="height:20px;"></div>

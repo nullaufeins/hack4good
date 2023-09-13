@@ -1,0 +1,28 @@
+.sponsoring-packages
+    display: flex
+    flex-direction: column
+
+    .package
+        display: flex
+        flex-direction: column
+        gap: 5%
+        align-items: center
+        margin: 1em
+
+        +tablet
+            flex-direction: row
+
+        .package-content
+            width: 100%
+
+        img
+            width: 50%
+            margin: 0 auto
+
+            +tablet
+                margin: 2em
+                width: 30%
+                min-width: 150px
+                max-width: 250px
+
+

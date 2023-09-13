@@ -14,7 +14,6 @@ body {
 body {
   font-family: Archivo, Arial, sans-serif;
   font-size: 15px;
-  line-height: 1.8em;
   color: #F9C80E;
   background-color: #2E2157;
 }
@@ -26,6 +25,7 @@ body {
 
 h1, h2, h3 {
   font-family: "Darker Grotesque", Arial, sans-serif;
+  line-height: 1em;
 }
 
 h1 {
@@ -40,16 +40,59 @@ h3 {
   font-size: 2em;
 }
 
+p, li {
+  line-height: 1.8em;
+}
+
 .site-wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 4vw;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 4vw;
 }
 
 footer {
   background: orange;
+}
+
+.partners {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sponsor-card {
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex: 1 1 0px;
+  min-height: 150px;
+  margin: 1em;
+  max-width: 150px;
+  min-width: 150px;
+  padding: 2em;
+  position: relative;
+  text-align: center;
+}
+.sponsor-card p {
+  margin-bottom: 0;
+}
+
+.sponsor-badge {
+  position: absolute;
+  width: 30%;
+  top: -10%;
+  right: -10%;
+}
+
+.sponsor-card-img {
+  width: 100%;
+  height: auto;
 }
 
 header {
@@ -127,6 +170,56 @@ main {
 }
 .agenda .days > * {
   flex: 1;
+}
+
+.start {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+@media (min-width: 900px) {
+  .start {
+    flex-direction: row;
+  }
+}
+.start .graphic {
+  min-width: 40%;
+}
+.start .graphic img {
+  max-width: 70%;
+  margin: 3em 15%;
+}
+
+.sponsoring-packages {
+  display: flex;
+  flex-direction: column;
+}
+.sponsoring-packages .package {
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  align-items: center;
+  margin: 1em;
+}
+@media (min-width: 600px) {
+  .sponsoring-packages .package {
+    flex-direction: row;
+  }
+}
+.sponsoring-packages .package .package-content {
+  width: 100%;
+}
+.sponsoring-packages .package img {
+  width: 50%;
+  margin: 0 auto;
+}
+@media (min-width: 600px) {
+  .sponsoring-packages .package img {
+    margin: 2em;
+    width: 30%;
+    min-width: 150px;
+    max-width: 250px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
