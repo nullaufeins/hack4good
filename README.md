@@ -33,5 +33,4 @@ The project is structured like this:
 
 ## VSCode Extensions
 
-- To keep the code clean, you could use the  
-Format HTML in PHP (https://marketplace.visualstudio.com/items?itemName=rifi2k.format-html-in-php)
+- To keep the code clean, you could use the [Format HTML in PHP](https://marketplace.visualstudio.com/items?itemName=rifi2k.format-html-in-php) extension.
