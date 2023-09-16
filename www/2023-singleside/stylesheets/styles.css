@@ -42,6 +42,16 @@ h3 {
 
 p, li {
   line-height: 1.8em;
+  max-width: 50em;
+}
+
+a {
+  text-decoration: none;
+  color: #FD1D53;
+}
+
+a:hover {
+  color: #F706CF;
 }
 
 .site-wrapper {
@@ -53,7 +63,9 @@ p, li {
 }
 
 footer {
-  background: orange;
+  margin: 3em 0;
+  padding-top: 0.5em;
+  border-top: 1px solid #F9C80E;
 }
 
 .partners {
@@ -71,13 +83,21 @@ footer {
   cursor: pointer;
   display: flex;
   flex: 1 1 0px;
-  min-height: 150px;
   margin: 1em;
-  max-width: 150px;
-  min-width: 150px;
-  padding: 2em;
+  min-height: 130px;
+  max-width: 130px;
+  min-width: 130px;
+  padding: 1em;
   position: relative;
   text-align: center;
+  min-height: 150px;
+  min-height: 150px;
+  margin: 1em;
+  margin-min-height: 150px;
+  margin: 1em;
+  margin-max-width: 150px;
+  margin-min-width: 150px;
+  margin-padding: 1em;
 }
 .sponsor-card p {
   margin-bottom: 0;
@@ -206,20 +226,80 @@ main {
     flex-direction: row;
   }
 }
-.sponsoring-packages .package .package-content {
+.sponsoring-packages .package .content {
   width: 100%;
 }
-.sponsoring-packages .package img {
-  width: 50%;
+.sponsoring-packages .package .content h3 span {
+  white-space: nowrap;
+}
+.sponsoring-packages .package .logo {
+  display: flex;
+  width: 100%;
+  min-width: 150px;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 600px) {
+  .sponsoring-packages .package .logo {
+    width: 35%;
+    min-width: 150px;
+  }
+}
+.sponsoring-packages .package .logo .reindeer {
+  width: 40%;
+  min-width: 140px;
   margin: 0 auto;
 }
 @media (min-width: 600px) {
-  .sponsoring-packages .package img {
-    margin: 2em;
-    width: 30%;
-    min-width: 150px;
+  .sponsoring-packages .package .logo .reindeer {
+    margin: 1em;
+    width: 80%;
+    min-width: 180px;
     max-width: 250px;
   }
+}
+.sponsoring-packages .package .logo .elve {
+  width: 38%;
+  min-width: 130px;
+  margin: 0 auto;
+}
+@media (min-width: 600px) {
+  .sponsoring-packages .package .logo .elve {
+    margin: 1em;
+    width: 75%;
+    min-width: 160px;
+    max-width: 240px;
+  }
+}
+.sponsoring-packages .package .logo .gingerbread {
+  width: 20%;
+  min-width: 80px;
+  margin: 0 auto;
+}
+@media (min-width: 600px) {
+  .sponsoring-packages .package .logo .gingerbread {
+    margin: 1em;
+    width: 40%;
+    min-width: 80px;
+    max-width: 170px;
+  }
+}
+
+.community {
+  max-width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2em;
+}
+.community + tablet {
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.community img {
+  flex: 1 1 0px;
+  max-width: 100px;
+  min-width: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -12,17 +12,71 @@
         +tablet
             flex-direction: row
 
-        .package-content
+        .content
             width: 100%
 
-        img
-            width: 50%
-            margin: 0 auto
+            h3
+                span
+                    white-space: nowrap
+
+        .logo
+            display: flex
+            width: 100%
+            min-width: 150px
+            justify-content: center
+            align-items: center
 
             +tablet
-                margin: 2em
-                width: 30%
+                width: 35%
                 min-width: 150px
-                max-width: 250px
 
 
+            .reindeer
+                width: 40%
+                min-width: 140px
+                margin: 0 auto
+
+                +tablet
+                    margin: 1em
+                    width: 80%
+                    min-width: 180px
+                    max-width: 250px
+
+            .elve
+                width: 38%
+                min-width: 130px
+                margin: 0 auto
+
+                +tablet
+                    margin: 1em
+                    width: 75%
+                    min-width: 160px
+                    max-width: 240px
+
+            .gingerbread
+                width: 20%
+                min-width: 80px
+                margin: 0 auto
+
+                +tablet
+                    margin: 1em
+                    width: 40%
+                    min-width: 80px
+                    max-width: 170px
+
+.community
+
+    max-width: 500px
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    gap: 2em
+    
+    + tablet
+        flex-direction: row
+        flex-wrap: nowrap
+
+    img
+        flex: 1 1 0px
+        max-width: 100px
+        min-width: 100px

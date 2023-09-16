@@ -50,7 +50,7 @@
 
 <div id="sponsors">
     <h2>Supporters</h2>
-    <p style="color: var(--bg-color);">Many thanks to our partners of the 2nd Hack for Good Leipzig event. We couldn't
+    <p>Many thanks to our partners of the 2nd Hack for Good Leipzig event. We couldn't
         be here without the fantastic support of:</p>
     <div class="partners">
 
@@ -59,7 +59,7 @@
             <img class="sponsor-card-img" onclick="window.open('https://www.aboutsource.net/jobs')"
                 src="<?= BASE_URL ?>/assets/sponsors/logo_about-source.png" alt="about source GmbH" />
         </div>
-       <div class="sponsor-card">
+        <div class="sponsor-card">
             <img src="<?= BASE_URL ?>/assets/sponsors/elve.png" class="sponsor-badge" alt="Elve supporters" />
             <img class="sponsor-card-img" onclick="window.open('https://www.actaport.de/')"
                 src="<?= BASE_URL ?>/assets/sponsors/logo_actaport.svg" alt="dokSAFE GmbH" />
@@ -70,7 +70,7 @@
                 class="sponsor-badge" alt="Reindeer supporters" src="<?= BASE_URL ?>/assets/sponsors/logo_check24.jpg"
                 alt="CHECK24 Vergleichsportal GmbH" />
         </div>
-         <!-- <div class="sponsor-card">
+        <div class="sponsor-card">
             <img src="<?= BASE_URL ?>/assets/sponsors/elve.png" class="sponsor-badge" alt="Elve supporters" />
             <img class="sponsor-card-img" onclick="window.open('https://power.cloud/')"
                 src="<?= BASE_URL ?>/assets/sponsors/logo_powercloud.png" alt="powercloud GmbH" />
@@ -92,10 +92,10 @@
         <div class="sponsor-card" onclick="window.open('https://wtl.de')">
             <img class="sponsor-badge" src="<?= BASE_URL ?>/assets/sponsors/elve.png" alt="Elve supporters" />
             <img class="sponsor-card-img" src="<?= BASE_URL ?>/assets/sponsors/logo_wtl.png" alt="WEBTEAM LEIPZIG GmbH" />
-        </div> -->
+        </div>
     </div>
 </div>
-
+<!-- 
 <div class="supporters">
     <h3>Get involved!</h3>
     <p><b>Do good and support your local community! We have following and individual options how you could get
@@ -103,7 +103,7 @@
     <p>Hack for good is a non-profit event realized by volunteer work of our community members. Our events depend on
         partners who support us. Only with their help, we can pay for rent, drinks, snacks and materials.</p>
 </div>
-
+ -->
 
 <div id="partners">
     <h2>Special thanks goes out to:</h2>
