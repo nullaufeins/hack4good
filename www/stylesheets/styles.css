@@ -286,20 +286,24 @@ main {
 }
 
 .community {
-  max-width: 500px;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  gap: 2em;
+  width: 100%;
+  flex-wrap: wrap;
 }
-.community + tablet {
-  flex-direction: row;
-  flex-wrap: nowrap;
+.community .entry {
+  width: 46%;
+  margin-bottom: 2em;
 }
-.community img {
-  flex: 1 1 0px;
-  max-width: 100px;
-  min-width: 100px;
+.community .entry img {
+  width: 100%;
+}
+@media (min-width: 365px) {
+  .community .entry {
+    width: 22%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
