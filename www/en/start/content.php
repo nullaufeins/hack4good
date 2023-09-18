@@ -1,7 +1,6 @@
 <div class="start">
     <div class="content">
         <h1 class="hero">hackathon to give back to the good</h1>
-        <div style="height:20px;"></div>
         <h2 class="hero">Dez 8th - 10th 2023</h2>
         <a href="https://www.basislager.co/" target="_blank" rel=“noopener noreferrer“>
             <h3 class="hero">Basislager Coworking, Leipzig</h3>

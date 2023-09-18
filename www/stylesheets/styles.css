@@ -29,11 +29,11 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3em;
 }
 
 h2 {
-  font-size: 2.4em;
+  font-size: 2.2em;
 }
 
 h3 {
@@ -125,12 +125,12 @@ header .logo-line {
   margin-bottom: 1em;
 }
 header .logo-line img {
-  width: clamp(240px, 35vw, 400px);
+  width: clamp(300px, 50vw, 400px);
 }
 header .participate-line {
   display: flex;
   justify-content: center;
-  margin: 1em 0;
+  margin: 2.5em 0;
 }
 header .participate-line a {
   color: white;
@@ -148,7 +148,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0.5em 1em;
+  margin: 0.5em 0.5em;
 }
 nav .nav-item {
   margin: 0 0.5em;
@@ -156,6 +156,7 @@ nav .nav-item {
   text-decoration: none;
   text-transform: uppercase;
   padding-bottom: 0.2em;
+  margin-bottom: 0.6em;
 }
 @media (min-width: 750px) {
   nav .nav-item {
@@ -175,7 +176,7 @@ nav .nav-item:hover:after {
 }
 
 main {
-  margin-top: 4em;
+  margin-top: 0em;
 }
 
 .agenda .days {
@@ -300,7 +301,7 @@ main {
 .community .entry img {
   width: 100%;
 }
-@media (min-width: 365px) {
+@media (min-width: 600px) {
   .community .entry {
     width: 22%;
   }
