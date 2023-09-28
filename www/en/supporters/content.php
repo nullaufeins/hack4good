@@ -1,14 +1,22 @@
 <div class="sponsoring-packages">
+    <h2>Please get involved!</h2>
+    <p>
+        Do good and support your local community!<br />
+        We have following and individual options how you could get involved. Please reach out. 
+        Hack for good is a non-profit event realized by volunteer work of our community members. 
+        Our events depend on partners who support us. Only with their help, we can pay for rent, drinks, 
+        snacks and materials.
+    </p>
     <div class="package">
         <div class="logo">
             <img class="reindeer" src="<?= BASE_URL ?>/assets/sponsors/reindeer.png" alt="Reindeer supporters" />
         </div>
         <div class="content">
-            <h3>Reindeers <span>(1200 EUR package)</span></h3>
+            <h3>Reindeers <span>(1.200 EUR package)</span></h3>
             <ul>
-                <li>Logo on Website</li>
-                <li>Social Media</li>
-                <li>Unlimited Jobs on the Board onsite & on Discord Job Channel</li>
+                <li>Logo & link on the website</li>
+                <li>Public thanks on social media</li>
+                <li>Unlimited postings on the job board onsite & in the discord job channel</li>
                 <li>Banner/flyers/stickers/gadets at the hackathon</li>
                 <li>Talk slot</li>
                 <li>Jury slot</li>
@@ -24,10 +32,10 @@
         <div class="content">
             <h3>Elves <span>(800 EUR package)</span></h3>
             <ul>
-                <li>Logo on Website</li>
-                <li>Social Media</li>
-                <li>2 Jobs on the Board onsite</li>
-                <li>Flyers and stickers on the event</li>
+                <li>Logo on website</li>
+                <li>Public thanks on social media</li>
+                <li>2 postings on the job board onsite</li>
+                <li>Flyers and stickers at the hackathon</li>
             </ul>
         </div>
     </div>
@@ -39,8 +47,8 @@
         <div class="content">
             <h3>Gingerbread <span>(300 EUR package)</span></h3>
             <ul>
-                <li>Logo on Website</li>
-                <li>Social Media</li>
+                <li>Logo and link on website</li>
+                <li>Public thanks on social media</li>
             </ul>
         </div>
     </div>
@@ -50,11 +58,11 @@
 
 <div id="sponsors">
     <h2>Supporters</h2>
-    <p>Many thanks to our partners of the 2nd Hack for Good Leipzig event. We couldn't
-        be here without the fantastic support of:</p>
+    <!-- <p>Many thanks to our partners of the 2nd Hack for Good Leipzig event. We couldn't
+        be here without the fantastic support of:</p> -->
     <div class="partners">
 
-        <div class="sponsor-card">
+        <!-- <div class="sponsor-card">
             <img src="<?= BASE_URL ?>/assets/sponsors/reindeer.png" class="sponsor-badge" alt="Reindeer supporters" />
             <img class="sponsor-card-img" onclick="window.open('https://www.aboutsource.net/jobs')"
                 src="<?= BASE_URL ?>/assets/sponsors/logo_about-source.png" alt="about source GmbH" />
@@ -92,7 +100,7 @@
         <div class="sponsor-card" onclick="window.open('https://wtl.de')">
             <img class="sponsor-badge" src="<?= BASE_URL ?>/assets/sponsors/elve.png" alt="Elve supporters" />
             <img class="sponsor-card-img" src="<?= BASE_URL ?>/assets/sponsors/logo_wtl.png" alt="WEBTEAM LEIPZIG GmbH" />
-        </div>
+        </div> -->
     </div>
 </div>
 <!-- 
@@ -106,7 +114,7 @@
  -->
 
 <div id="partners">
-    <h2>Special thanks goes out to:</h2>
+    <!-- <h2>Special thanks goes out to:</h2>
     <div class="partners">
         <div class="sponsor-card" onclick="window.open('https://www.basislager.co/l')">
 
@@ -169,5 +177,5 @@
             <img class="sponsor-card-img" src="<?= BASE_URL ?>/assets/partners/vostel.svg" alt="Vostel.de" />
 
         </div>
-    </div>
+    </div> -->
 </div>

@@ -2,17 +2,17 @@
     <h2>Agenda</h2>
     <div class="days">
         <div>
-            <h3>Friday,<br>October 7th 22</h3>
-            <ul>
+            <h3>Freitag,<br>8. Dezember 23</h3>
+            <!-- <ul>
                 <li>18:00 - Doors open 🤗</li>
                 <li>19:00 - Welcome & NGO panel session</li>
                 <li>20:30 - Team formation, drinks and socializing</li>
                 <li>00:00 - Charging batteries 🛌</li>
-            </ul>
+            </ul> -->
         </div>
         <div>
-            <h3>Saturday,<br>October 8th 22</h3>
-            <ul>
+            <h3>Samstag,<br>9. Dezember 23</h3>
+            <!-- <ul>
                 <li>10:00 - Doors open 🤗</li>
                 <li>10:30 (15') - Good Morning Keynote<br>
                     <b>"From Opera Singer to Engineering Director: Why You Belong in Tech"</b> by <a
@@ -30,11 +30,11 @@
                 </li>
                 <li>19:00 - Dinner time 🍕</li>
                 <li>Hacking all night</li>
-            </ul>
+            </ul> -->
         </div>
         <div>
-            <h3>Sunday,<br>October 9th 22</h3>
-            <ul>
+            <h3>Sonntag,<br>10. Dezember 23</h3>
+            <!-- <ul>
                 <li>10:00 - Doors open 🤗</li>
                 <li>12:30 - Lunch time</li>
                 <li>13:30 - Presentations</li>
@@ -44,6 +44,6 @@
                         Leipzig</a><br>
                 </li>
                 <li>15:00 - Award ceremony</li>
-            </ul>
+            </ul> -->
         </div>
     </div>

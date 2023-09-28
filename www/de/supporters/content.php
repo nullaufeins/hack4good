@@ -1,13 +1,23 @@
 <div class="sponsoring-packages">
+    <h2>Unterstützt uns!</h2>
+    <p>
+    Tut Gutes und unterstützt eure lokale Community!
+    Wir bieten verschiedene Optionen und individuelle Möglichkeiten, wie ihr euch beteiligen könnt. 
+    Bitte kommt mit uns in Kontakt! 
+    Der Hackolaus ist eine gemeinnützige Veranstaltung, die durch die ehrenamtliche Arbeit unserer 
+    Community-Peeps realisiert wird. Unsere Veranstaltungen sind auf startke Partner angewiesen, die uns unterstützen. 
+    Nur mit eurer Hilfe können wir enstehende Kosten wie Miete, Getränke oder Materialien bezahlen, 
+    um das Event durchzuführen.
+    </p>
     <div class="package">
         <div class="logo">
             <img class="reindeer" src="<?= BASE_URL ?>/assets/sponsors/reindeer.png" alt="Reindeer supporters" />
         </div>
         <div class="content">
-            <h3>Reindeers <span>(1200 EUR package)</span></h3>
+            <h3>Reindeers <span>(1.200 EUR)</span></h3>
             <ul>
-                <li>Logo on Website</li>
-                <li>Social Media</li>
+                <li>Logo auf der Website</li>
+                <li>Danksagung auf Social Media</li>
                 <li>Unlimited Jobs on the Board onsite & on Discord Job Channel</li>
                 <li>Banner/flyers/stickers/gadets at the hackathon</li>
                 <li>Talk slot</li>
@@ -50,7 +60,7 @@
 
 <div id="sponsors">
     <h2>Supporters</h2>
-    <p style="color: var(--bg-color);">Many thanks to our partners of the 2nd Hack for Good Leipzig event. We couldn't
+    <!-- <p style="color: var(--bg-color);">Many thanks to our partners of the 2nd Hack for Good Leipzig event. We couldn't
         be here without the fantastic support of:</p>
     <div class="partners">
 
@@ -92,20 +102,12 @@
         <div class="sponsor-card" onclick="window.open('https://wtl.de')">
             <img class="sponsor-badge" src="<?= BASE_URL ?>/assets/sponsors/elve.png" alt="Elve supporters" />
             <img class="sponsor-card-img" src="<?= BASE_URL ?>/assets/sponsors/logo_wtl.png" alt="WEBTEAM LEIPZIG GmbH" />
-        </div> -->
-    </div>
-</div>
-
-<div class="supporters">
-    <h3>Get involved!</h3>
-    <p><b>Do good and support your local community! We have following and individual options how you could get
-            involved. Please <a href="mailto:events@nullaufeins.org">reach out</a></b>.</p>
-    <p>Hack for good is a non-profit event realized by volunteer work of our community members. Our events depend on
-        partners who support us. Only with their help, we can pay for rent, drinks, snacks and materials.</p>
+        </div>
+    </div> -->
 </div>
 
 
-<div id="partners">
+<!-- <div id="partners">
     <h2>Special thanks goes out to:</h2>
     <div class="partners">
         <div class="sponsor-card" onclick="window.open('https://www.basislager.co/l')">
@@ -170,4 +172,4 @@
 
         </div>
     </div>
-</div>
+</div> -->

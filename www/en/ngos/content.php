@@ -3,7 +3,9 @@
     <p>
         We're gathering not for profit organizations doing work on social, environmental and economic sustainability
         to share their work, frustrations and goals. With this information, attendees will form teams to build
-        solutions for the non profit of their choice.
+        solutions for the non profit of their choice.<br />
+
+        More information soon!
     </p>
     <!-- <p>
         <strong>
@@ -16,7 +18,7 @@
     <!-- <h3>The registration deadline for this year has expired. Thank you for the numerous interest! Feel free to <a href="mailto:events@nullaufeins.org">write</a> us anyway</a>, we're planning a Hack for Good 2023 too!</h3>
       <p><a href="/call-for-projects" target="_blank" class="cta cta-projects">Call for projects</a></p> -->
 
-    <div class="ngo-slots">
+    <!-- <div class="ngo-slots">
         <div class="ngo-slot">
             <div class="ngo">
                 <a href="https://adaption-leipzig.de/" target="_blank" rel="noopener noreferrer">
@@ -130,5 +132,5 @@
                 attacks or dropping out of studies, we have a sympathetic ear for everyone.
             </p>
         </div>
-    </div>
+    </div> -->
 </div>
