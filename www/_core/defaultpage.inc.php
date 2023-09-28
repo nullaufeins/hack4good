@@ -42,7 +42,9 @@
         </main>
 
         <footer>
-            the footer is yet to come
+            <div>
+                sticky footer is yet to come
+            </div>
         </footer>
     </div>
 </body>
