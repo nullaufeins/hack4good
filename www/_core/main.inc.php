@@ -6,8 +6,6 @@ $baseUrls = array(
     "localhost" => "http://localhost:8888"
     );
 
-print($_SERVER['SERVER_NAME']);
-
 define("BASE_PATH", __DIR__);
 define("BASE_URL", $baseUrls[$_SERVER['SERVER_NAME']] ?: "https://staging.hack-for-good.de");
 
