@@ -16,13 +16,13 @@
         <div class="content">
             <h3>Reindeers <span>(1.200 EUR)</span></h3>
             <ul>
-                <li>Logo auf der Website</li>
-                <li>Danksagung auf Social Media</li>
-                <li>Unlimited Jobs on the Board onsite & on Discord Job Channel</li>
-                <li>Banner/flyers/stickers/gadets at the hackathon</li>
+                <li>Logo & Link auf der Website</li>
+                <li>Öffentliche Danksagung auf Social Media</li>
+                <li>Unbegrenzt Jobgesuche auf dem Job-Board beim Hackathon & im Discord Job-Channel</li>
+                <li>Banner, Flyer, Sticker, Gadets auf dem Hackathon</li>
                 <li>Talk slot</li>
                 <li>Jury slot</li>
-                <li>Mention in press release</li>
+                <li>Erwähung in der Pressemitteilung</li>
             </ul>
         </div>
     </div>
@@ -32,12 +32,12 @@
             <img class="elve" src="<?= BASE_URL ?>/assets/sponsors/elve.png" alt="Elve supporters" />
         </div>
         <div class="content">
-            <h3>Elves <span>(800 EUR package)</span></h3>
+            <h3>Elves <span>(800 EUR)</span></h3>
             <ul>
-                <li>Logo on Website</li>
-                <li>Social Media</li>
-                <li>2 Jobs on the Board onsite</li>
-                <li>Flyers and stickers on the event</li>
+                <li>Logo & Link auf der Website</li>
+                <li>Öffentliche Danksagung auf Social Media</li>
+                <li>2 Jobs auf dem Job-Board beim Hackathon</li>
+                <li>Flyer & Sticker auf dem Event</li>
             </ul>
         </div>
     </div>
@@ -49,8 +49,8 @@
         <div class="content">
             <h3>Gingerbread <span>(300 EUR package)</span></h3>
             <ul>
-                <li>Logo on Website</li>
-                <li>Social Media</li>
+                <li>Logo & Link auf der Website</li>
+                <li>Öffentliche Danksagung auf Social Media</li>
             </ul>
         </div>
     </div>
