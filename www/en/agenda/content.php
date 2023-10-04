@@ -3,15 +3,16 @@
     <div class="days">
         <div>
             <h3>Friday,<br>December 8th 23</h3>
-            <!-- <ul>
+            <ul>
                 <li>18:00 - Doors open 🤗</li>
                 <li>19:00 - Welcome & NGO panel session</li>
                 <li>20:30 - Team formation, drinks and socializing</li>
                 <li>00:00 - Charging batteries 🛌</li>
-            </ul> -->
+            </ul>
         </div>
         <div>
             <h3>Saturday,<br>December 9th 23</h3>
+            <p>tbd</p>
             <!-- <ul>
                 <li>10:00 - Doors open 🤗</li>
                 <li>10:30 (15') - Good Morning Keynote<br>
@@ -34,6 +35,7 @@
         </div>
         <div>
             <h3>Sunday,<br>December 10th 23</h3>
+            <p>tbd</p>
             <!-- <ul>
                 <li>10:00 - Doors open 🤗</li>
                 <li>12:30 - Lunch time</li>
