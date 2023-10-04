@@ -3,7 +3,7 @@
 $baseUrls = array(
     "staging.hack-for-good.de" => "https://staging.hack-for-good.de",
     "www.hack-for-good.de-localhost" => "https://www.hack-for-good.de-localhost",
-    "localhost" => "http://localhost:8888"
+    "localhost" => "http://localhost:8010"
     );
 
 define("BASE_PATH", __DIR__);
