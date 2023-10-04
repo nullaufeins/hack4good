@@ -2,8 +2,8 @@
     <div class="content">
         <h1 class="hero">hackathon to give back to the good</h1>
         <h2 class="hero">Dez 8th - 10th 2023</h2>
-        <a href="https://www.basislager.co/" target="_blank" rel=“noopener noreferrer“>
-            <h3 class="hero">Basislager Coworking, Leipzig</h3>
+        <a href="" target="_blank" rel=“noopener noreferrer“>
+            <h3 class="hero">tbd, Leipzig</h3>
         </a>
         <a href="https://twitter.com/nullaufeins_ev" target="_blank" rel=“noopener noreferrer“
             style="margin-right:1rem;">
@@ -16,7 +16,7 @@
                 give back to them.
             </p>
             <p>
-                This is why we are collaborating on a hackathon to support these organizations with solutions to help
+                This is why we are collaborating on a hackathon to support these organizations with digial and creative solutions to help
                 them focus more on delivering impact.
             </p>
     </div>
