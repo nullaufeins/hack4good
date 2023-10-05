@@ -1,11 +1,6 @@
 <div class="participate" id="participate">
     <h2>Participate</h2>
     <div id="skills" class="skills">
-      <div class="participate-line">
-        <a href="" target="_blank" rel="noopener noreferer">
-          <?= $language == "de" ? "anmelden" : "participate" ?>
-        </a>
-      </div>
       <p>
         You don't need to have any specific skills to participate – any help
         is welcome! Here's some ideas on how to get involved:
@@ -60,7 +55,11 @@
         </div>
         <div style="height:20px;"></div>
       </div>
-      <a href="" target="_blank" rel="noopener noreferrer" class="cta">Join the hackolaus!</a>
+      <div class="participate-line">
+        <a href="" target="_blank" rel="noopener noreferer">
+          <?= $language == "de" ? "mitmachen" : "join the hackolaus" ?>
+        </a>
+      </div>
     </div>
         
     <h2>Code of Conduct</h3>

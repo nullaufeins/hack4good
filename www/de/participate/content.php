@@ -61,7 +61,7 @@
         
         <div class="participate-line">
           <a href="" target="_blank" rel="noopener noreferer">
-            <?= $language == "de" ? "mitmachen" : "participate" ?>
+            <?= $language == "de" ? "mitmachen" : "join the hackolaus" ?>
           </a>
         </div>
       </div>

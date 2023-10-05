@@ -1,13 +1,38 @@
 <div id="ngos" class="ngos">
     <h2>Wir unterstützen gemeinnützige Projekte</h2>
+    <div class="participate-line">
+        <a href="https://form.typeform.com/to/Ds9m6LyI" target="_blank" rel="noopener noreferer">
+          <?= $language == "de" ? "jetzt bewerben" : "apply now" ?>
+        </a>
+    </div>
     <p>
         Wir sind eine Community von ehrenamtlichen, Design und Code liebenden Menschen aus dem Raum Leipzig, 
         die ihre Fähigkeiten rund um Digitales, Kreatives und Technik gern für eine gute Sache einsetzen möchten.
     </p>
     <p>
-        Wir laden euch daher herzlich ein, an unserem diesjährigen 3. Hackolaus-Wochenende teilzunehmen bzw. vor allem euer Problem teilnehmen zu lassen!
+        Wir laden euch daher herzlich ein, an unserem diesjährigen 3. Hackolaus-Wochenende vom 8.-10.12.2023 teilzunehmen 
+        bzw. vor allem euer Problem teilnehmen zu lassen!
     </p>
     <h2>Wie soll das ablaufen?</h2>
+    <p>
+        Während eines Hackathons wird non-stop gehackt - also getüfftelt, nachgedacht, designed und programmiert. Denn das ist unsere Leidenschaft.
+        Wir möchten diese Leidenschaft aber gern mit dem Nützlichen verbinden und an Themen arbeiten, die einen Mehrwert für andere (z.B. euch) erzeugen, 
+        so dass wir eurer Leidenschaft vielleicht ein kleines Problem aus dem Weg schaffen können... Eine Balance zwischen Geben und Nehmen für uns alle quasi. 
+        Und da ihr immer viel gebt, sollt ihr an diesem Wochenende einmal nehmen dürfen. Natürlich ohne Kosten!
+    </p>
+    <h2>Wer löst das Problem?</h2>
+    <p>
+        Am Anfang eines Hackathons werden alle Ideen/Wünsche/Probleme gepitcht, das heißt, vor allen Teilnehmenden wird das Problem vorgestellt und der Zusammenhang erläutert.
+        Danach können sich Freiwillige zusammenfinden, die Lust haben, an genau diesem Problem zu arbeiten und dann geht es schon los!
+    </p>
+    <h2>Wie kann man mitmachen?</h2>
+    <p>
+        Euer Part wäre es, euch mit eurem das Problem bei uns zu bewerben, nutzt dazu bitte <a href="https://form.typeform.com/to/Ds9m6LyI" target="_blank" rel="noopener noreferrer">das Formular, was hier verlinkt ist</a>.
+        Seid ihr dabei, stellt ihr am Hackolaus-Wochenende eure Herausforderung vor und es kann losgehen. 
+        Übrigens ist das eine sehr gute Gelegenheit, eure Vereins-/Projektarbeit einer breiteren Masse vorzustellen und somit vielleicht 
+        auch noch auf andere Weise Unterstützung zu erhalten!
+    </p>
+
 
     <!-- <div class="ngo-slots">
         <div class="ngo-slot">

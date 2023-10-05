@@ -136,7 +136,6 @@ header .logo-line img {
 }
 header .participate-line {
   display: flex;
-  justify-content: center;
   margin: 2.5em 0;
 }
 header .participate-line a {
