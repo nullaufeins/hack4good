@@ -1,10 +1,12 @@
 <div class="start">
     <div class="content">
         <h1 class="hero">Hacken für das Gute</h1>
-        <h2 class="hero">8. - 10. Dezember 2023</h2>
-        <a href="" target="_blank" rel=“noopener noreferrer“>
-            <h3 class="hero">tbd, Leipzig</h3>
-        </a>
+        <h2 class="hero">8. - 10. Dezember 2023, Leipzig</h2>
+        <div class="participate-line">
+          <a href="" target="_blank" rel="noopener noreferer">
+            <?= $language == "de" ? "mitmachen" : "participate" ?>
+          </a>
+        </div>
         <p>
             Viele Organisationen, Vereine und Einzelpersonen unserer Region sind unermüdlich, oft ehrenamtlich, für gemeinnützige Projekte tätig, 
             engagieren sich im sozialen Bereich oder setzen sich für Umwelt- und Nachhaltigkeitsanliegen ein. Wir sind der Meinung, 

@@ -32,10 +32,6 @@
             <nav>
                 <?php require_once "../menu.inc.php"; ?>
             </nav>
-            <div class="participate-line">
-                <a href="" target="_blank"
-                    rel="noopener noreferer"><?= $language == "de" ? "anmelden" : "participate" ?></a>
-            </div>
         </header>
 
         <main>

@@ -59,7 +59,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1400px;
   padding: 0 4vw 7em 4vw;
   min-height: 100%;
   margin-bottom: -6em;
@@ -134,12 +134,13 @@ header .logo-line {
 header .logo-line img {
   width: clamp(300px, 50vw, 400px);
 }
-header .participate-line {
+
+.participate-line {
   display: flex;
   justify-content: center;
   margin: 2.5em 0;
 }
-header .participate-line a {
+.participate-line a {
   color: white;
   background-color: #FD1D53;
   text-decoration: none;
@@ -147,7 +148,7 @@ header .participate-line a {
   border-radius: 2em;
   padding: 1em 2em;
 }
-header .participate-line a:hover {
+.participate-line a:hover {
   background-color: #F706CF;
 }
 

@@ -1,18 +1,13 @@
 <div id="ngos" class="ngos">
-    <h2>Teilnehmende Organisationen</h2>
+    <h2>Wir unterstützen gemeinnützige Projekte</h2>
     <p>
-        Mehr Informationen folgen in Kürze. 
+        Wir sind eine Community von ehrenamtlichen, Design und Code liebenden Menschen aus dem Raum Leipzig, 
+        die ihre Fähigkeiten rund um Digitales, Kreatives und Technik gern für eine gute Sache einsetzen möchten.
     </p>
-    <!-- <p>
-        <strong>
-          If you know a project or organisation that needs help, <a href="mailto:events@nullaufeins.org ">please
-            drop
-            us a line</a> or send them <a href="/call-for-projects">this way (German edition)</a>.
-        </strong>
-
-      </p> -->
-    <!-- <h3>The registration deadline for this year has expired. Thank you for the numerous interest! Feel free to <a href="mailto:events@nullaufeins.org">write</a> us anyway</a>, we're planning a Hack for Good 2023 too!</h3>
-      <p><a href="/call-for-projects" target="_blank" class="cta cta-projects">Call for projects</a></p> -->
+    <p>
+        Wir laden euch daher herzlich ein, an unserem diesjährigen 3. Hackolaus-Wochenende teilzunehmen bzw. vor allem euer Problem teilnehmen zu lassen!
+    </p>
+    <h2>Wie soll das ablaufen?</h2>
 
     <!-- <div class="ngo-slots">
         <div class="ngo-slot">

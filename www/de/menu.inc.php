@@ -6,4 +6,5 @@
     <a href="<?= BASE_URL ?>/de/supporters" class="nav-item">Unterstützer</a>
     <a href="<?= BASE_URL ?>/de/venue" class="nav-item">Ablauf & Ort</a>
     <a href="<?= BASE_URL ?>/de/faq" class="nav-item">FAQ</a>
+    <a href="<?= BASE_URL ?>/en/start" class="nav-item">EN</a>
 </nav>

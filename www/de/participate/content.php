@@ -59,7 +59,11 @@
           <div style="height:20px;"></div>
         </div>
         
-        <a href="" target="_blank" rel="noopener noreferrer" class="cta">Jetzt anmelden!</a>
+        <div class="participate-line">
+          <a href="" target="_blank" rel="noopener noreferer">
+            <?= $language == "de" ? "mitmachen" : "participate" ?>
+          </a>
+        </div>
       </div>
     </div>
 

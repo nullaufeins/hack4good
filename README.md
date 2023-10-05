@@ -14,7 +14,6 @@ The project is structured like this:
 │   ├── _core/ (website configuration)
 │       ├── defaultpage.inc.php
 │       ├── main.inc.php
-│       ├── mainmenu.inc.php
 │   ├── assets/ (website images, fonts)
 │   ├── de/ (German content version)
 │   ├── en/ (English content version)
