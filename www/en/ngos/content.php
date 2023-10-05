@@ -1,5 +1,5 @@
 <div id="ngos" class="ngos">
-    <h2>Participating NGOs </h2>
+    <h2>Participating NGOs</h2>
     <p>
         We're gathering not for profit organizations doing work on social, environmental and economic sustainability
         to share their work, frustrations and goals. With this information, attendees will form teams to build
