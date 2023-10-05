@@ -1,13 +1,15 @@
 <div class="sponsoring-packages">
     <h2>Unterstützt uns!</h2>
+    <p>Tut Gutes und unterstützt eure lokale Community Gutes zu tun!</p>
     <p>
-    Tut Gutes und unterstützt eure lokale Community!
-    Wir bieten verschiedene Optionen und individuelle Möglichkeiten, wie ihr euch beteiligen könnt. 
-    Bitte kommt mit uns in Kontakt! 
-    Der Hackolaus ist eine gemeinnützige Veranstaltung, die durch die ehrenamtliche Arbeit unserer 
-    Community-Peeps realisiert wird. Unsere Veranstaltungen sind auf startke Partner angewiesen, die uns unterstützen. 
-    Nur mit eurer Hilfe können wir enstehende Kosten wie Miete, Getränke oder Materialien bezahlen, 
-    um das Event durchzuführen.
+        Der Hackolaus ist eine gemeinnützige Veranstaltung, die durch die ehrenamtliche Arbeit unserer 
+        Community-Peeps realisiert wird. Unsere Veranstaltungen sind auf starke Partner angewiesen, die uns unterstützen. 
+        Nur mit Eurer Hilfe können wir enstehende Kosten wie Miete, Getränke oder Materialien bezahlen, 
+        um das Event zu einem Erfolg zu machen.
+    </p>
+    <p>
+        Wir bieten verschiedene Optionen und individuelle Möglichkeiten, wie ihr euch beteiligen könnt. 
+        Bitte kommt mit uns in Kontakt, wir freuen uns auf den Austausch mit Euch!
     </p>
     <div class="package">
         <div class="logo">
@@ -47,7 +49,7 @@
             <img class="gingerbread" src="<?= BASE_URL ?>/assets/sponsors/gingerbread.png" alt="Gingerbread supporters" />
         </div>
         <div class="content">
-            <h3>Gingerbread <span>(300 EUR package)</span></h3>
+            <h3>Gingerbread <span>(300 EUR)</span></h3>
             <ul>
                 <li>Logo & Link auf der Website</li>
                 <li>Öffentliche Danksagung auf Social Media</li>

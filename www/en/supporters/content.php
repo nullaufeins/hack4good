@@ -1,18 +1,22 @@
 <div class="sponsoring-packages">
     <h2>Please get involved!</h2>
     <p>
-        Do good and support your local community!<br />
-        We have following and individual options how you could get involved. Please reach out. 
-        Hack for good is a non-profit event realized by volunteer work of our community members. 
-        Our events depend on partners who support us. Only with their help, we can pay for rent, drinks, 
-        snacks and materials.
+        Do good and support your local community to do good.
+    </p>
+    <p>
+        Hackolaus is a non-profit event realized by volunteer work of our community members. 
+        Our events depend on our partners who support us. Only with your help, we can pay for rent, drinks, 
+        snacks, materials and make the event a success.
+    </p>
+    <p>
+        We have following and individual options how you could get involved. Please reach out, we are happy to talk.
     </p>
     <div class="package">
         <div class="logo">
             <img class="reindeer" src="<?= BASE_URL ?>/assets/sponsors/reindeer.png" alt="Reindeer supporters" />
         </div>
         <div class="content">
-            <h3>Reindeers <span>(1.200 EUR package)</span></h3>
+            <h3>Reindeers <span>(1.200 EUR)</span></h3>
             <ul>
                 <li>Logo & link on the website</li>
                 <li>Public thanks on social media</li>
@@ -30,7 +34,7 @@
             <img class="elve" src="<?= BASE_URL ?>/assets/sponsors/elve.png" alt="Elve supporters" />
         </div>
         <div class="content">
-            <h3>Elves <span>(800 EUR package)</span></h3>
+            <h3>Elves <span>(800 EUR)</span></h3>
             <ul>
                 <li>Logo on website</li>
                 <li>Public thanks on social media</li>
@@ -45,7 +49,7 @@
             <img class="gingerbread" src="<?= BASE_URL ?>/assets/sponsors/gingerbread.png" alt="Gingerbread supporters" />
         </div>
         <div class="content">
-            <h3>Gingerbread <span>(300 EUR package)</span></h3>
+            <h3>Gingerbread <span>(300 EUR)</span></h3>
             <ul>
                 <li>Logo and link on website</li>
                 <li>Public thanks on social media</li>
