@@ -24,7 +24,7 @@
 
 <body>
     <div class="site-wrapper">
-        
+
         <header>
             <div class="logo-line">
                 <img src="<?= BASE_URL ?>/assets/logos/logo.svg" alt="Hackolaus" />
@@ -33,20 +33,40 @@
                 <?php require_once "../menu.inc.php"; ?>
             </nav>
             <div class="participate-line">
-                <a href="" target="_blank" rel="noopener noreferer">participate</a>
+                <a href="https://www.meetup.com/opentechschool-leipzig/events/288270934/" target="_blank"
+                    rel="noopener noreferer">participate</a>
             </div>
         </header>
-        
+
         <main>
             <?php require_once "content.php"; ?>
         </main>
 
-        <footer>
-            <div>
-                sticky footer is yet to come
-            </div>
-        </footer>
+
     </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="leading">
+                legal stuff
+            </div>
+            <div class="trailing">
+                <div class="contact">
+                    <div>
+                        <a href="mailto:events@nullaufeins.org">events@nullaufeins.org</a>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <a href="https://twitter.com/nullaufeins_ev" target="_blank" rel=“noopener noreferrer“>
+                        <img src="<?= BASE_URL ?>/assets/social-media/twitter.svg" class="icon"
+                            alt="Hack for Good Leipzig on Twitter"></a>
+                    <a href="https://www.instagram.com/nullaufeins_ev" target="_blank" rel=“noopener noreferrer“>
+                        <img src="<?= BASE_URL ?>/assets/social-media/insta.svg" class="icon"
+                            alt="Hack for Good Leipzig on Insta"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

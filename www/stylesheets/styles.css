@@ -6,9 +6,10 @@
   outline: none;
 }
 
-body {
+html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 body {
@@ -59,24 +60,9 @@ a:hover {
   flex-direction: column;
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0 4vw;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding-top: 0.5em;
-  height: 50px;
-  width: 100%;
-  background-color: #2E2157;
-  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.4);
-}
-footer div {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  padding: 0 4vw 3.5em 4vw;
+  min-height: 100%;
+  margin-bottom: -2.5em;
 }
 
 .partners {
@@ -192,6 +178,40 @@ nav .nav-item:hover:after {
 
 main {
   margin-top: 0em;
+}
+
+footer {
+  padding-top: 0.5em;
+  height: 2.5em;
+  width: 100%;
+  background-color: #2E2157;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 4vw;
+}
+footer .footer-content {
+  display: flex;
+  width: 100%;
+  border-top: 1px solid #F9C80E;
+  justify-content: space-between;
+  padding-top: 0.5em;
+}
+footer .footer-content .leading {
+  justify-content: start;
+}
+footer .footer-content .trailing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+footer .footer-content .trailing .contact {
+  padding: 0 0.5em;
+}
+footer .footer-content .trailing .social-media .icon {
+  width: 1.2em;
+  margin-left: 0.5em;
 }
 
 .agenda .days {

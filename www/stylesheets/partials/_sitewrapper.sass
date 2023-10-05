@@ -3,29 +3,11 @@
     flex-direction: column
     margin: 0 auto
     max-width: 1200px
-    padding: 0 4vw
+    padding: 0 4vw calc($footer-height + 1em) 4vw
 
-footer
-    // margin: 3em 0
-    // padding-top: .5em
-    // border-top: 1px solid $color-text
-    position: fixed
-    bottom: 0
-    left: 0
-    right: 0
-    padding-top: .5em
-    height: 50px
-    width: 100%
-    background-color: $color-background
-    box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.4)
-
-    div
-        // border-top: 1px solid green
-        width: 100%
-        display: flex
-        justify-content: center
-
-
+    // Sticky Footer
+    min-height: 100%
+    margin-bottom: -$footer-height
 
 .partners
     display: flex
