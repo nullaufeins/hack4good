@@ -140,6 +140,11 @@ header .logo-line img {
   justify-content: center;
   margin: 2.5em 0;
 }
+@media (min-width: 900px) {
+  .participate-line {
+    justify-content: flex-start;
+  }
+}
 .participate-line a {
   color: white;
   background-color: #FD1D53;
