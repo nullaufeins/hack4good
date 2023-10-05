@@ -181,6 +181,7 @@ main {
 }
 
 footer {
+  font-size: 0.8em;
   padding-top: 0.5em;
   height: 2.5em;
   width: 100%;
@@ -199,6 +200,9 @@ footer .footer-content {
 }
 footer .footer-content .leading {
   justify-content: start;
+}
+footer .footer-content .leading a {
+  margin-right: 1em;
 }
 footer .footer-content .trailing {
   display: flex;
