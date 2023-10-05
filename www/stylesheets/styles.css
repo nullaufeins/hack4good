@@ -134,13 +134,12 @@ header .logo-line {
 header .logo-line img {
   width: clamp(300px, 50vw, 400px);
 }
-
-.participate-line {
+header .participate-line {
   display: flex;
   justify-content: center;
   margin: 2.5em 0;
 }
-.participate-line a {
+header .participate-line a {
   color: white;
   background-color: #FD1D53;
   text-decoration: none;
@@ -148,7 +147,7 @@ header .logo-line img {
   border-radius: 2em;
   padding: 1em 2em;
 }
-.participate-line a:hover {
+header .participate-line a:hover {
   background-color: #F706CF;
 }
 
@@ -195,7 +194,7 @@ footer {
   background-color: #2E2157;
   display: flex;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1400px;
   padding: 0 4vw;
   align-items: flex-start;
 }
@@ -246,7 +245,7 @@ footer .footer-content .trailing .contact {
 footer .footer-content .trailing .social-media {
   display: flex;
   justify-content: center;
-  gap: 0.6em;
+  gap: 1em;
 }
 footer .footer-content .trailing .social-media .icon {
   width: 1.5em;
