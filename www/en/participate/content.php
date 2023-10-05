@@ -61,7 +61,7 @@
     <h2>Code of Conduct</h3>
     <p>
         Everybody who participates in Hack for Good / Hackolaus in one way or another is required to conform to our <a
-            href="<?= BASE_URL ?>/en/coc" target="_blank">Code of Conduct</a>
+            href="<?= BASE_URL ?>/en/coc">Code of Conduct</a>
         (CoC). This includes attendees, speakers, sponsors, organisers and volunteers. The CoC applies before and
         throughout the event (including related activities such as social events, and social media).
     </p>
