@@ -1,47 +1,49 @@
 footer
     font-size: .8em
     padding-top: .5em
-    height: $footer-height
+    height: 6em
     width: 100%
     background-color: $color-background
     display: flex
     margin: 0 auto
     max-width: 1200px
     padding: 0 4vw
+    align-items: flex-start
+
+    +tablet
+        height: 3em
 
     .footer-content
         display: flex
         width: 100%
         border-top: 1px solid $color-text
-        align-items: center
         padding-top: .5em
         flex-direction: column
+        gap: .5em
+
 
         +tablet
+            align-items: center
             flex-direction: row
             justify-content: space-between
 
 
         .leading
             display: flex
-            width: 100%
-
             justify-content: center
             align-items: center
-
-            a
-                margin-right: 1em
+            gap: 1em
 
         .trailing
-            width: 100%
             display: flex
             flex-direction: column
             justify-content: center
             flex-wrap: nowrap
+            align-items: center
+            gap: .8em
 
             +tablet
                 flex-direction: row
-
 
             .contact
                 display: flex
@@ -51,8 +53,10 @@ footer
             .social-media
                 display: flex
                 justify-content: center
-                // background-color: cyan
+                gap: .6em
 
                 .icon
-                    width: 1.2em
-                    margin-left: .5em
+                    width: 1.5em
+
+                    +tablet
+                        width: 1.5em

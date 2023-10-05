@@ -60,9 +60,15 @@ a:hover {
   flex-direction: column;
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0 4vw 3.5em 4vw;
+  padding: 0 4vw 7em 4vw;
   min-height: 100%;
-  margin-bottom: -2.5em;
+  margin-bottom: -6em;
+}
+@media (min-width: 600px) {
+  .site-wrapper {
+    margin-bottom: -3em;
+    padding: 0 4vw 3.5em 4vw;
+  }
 }
 
 .partners {
@@ -183,43 +189,48 @@ main {
 footer {
   font-size: 0.8em;
   padding-top: 0.5em;
-  height: 2.5em;
+  height: 6em;
   width: 100%;
   background-color: #2E2157;
   display: flex;
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 4vw;
+  align-items: flex-start;
+}
+@media (min-width: 600px) {
+  footer {
+    height: 3em;
+  }
 }
 footer .footer-content {
   display: flex;
   width: 100%;
   border-top: 1px solid #F9C80E;
-  align-items: center;
   padding-top: 0.5em;
   flex-direction: column;
+  gap: 0.5em;
 }
 @media (min-width: 600px) {
   footer .footer-content {
+    align-items: center;
     flex-direction: row;
     justify-content: space-between;
   }
 }
 footer .footer-content .leading {
   display: flex;
-  width: 100%;
   justify-content: center;
   align-items: center;
-}
-footer .footer-content .leading a {
-  margin-right: 1em;
+  gap: 1em;
 }
 footer .footer-content .trailing {
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.8em;
 }
 @media (min-width: 600px) {
   footer .footer-content .trailing {
@@ -234,10 +245,15 @@ footer .footer-content .trailing .contact {
 footer .footer-content .trailing .social-media {
   display: flex;
   justify-content: center;
+  gap: 0.6em;
 }
 footer .footer-content .trailing .social-media .icon {
-  width: 1.2em;
-  margin-left: 0.5em;
+  width: 1.5em;
+}
+@media (min-width: 600px) {
+  footer .footer-content .trailing .social-media .icon {
+    width: 1.5em;
+  }
 }
 
 .agenda .days {

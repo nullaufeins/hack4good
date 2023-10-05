@@ -16,6 +16,6 @@ $baseUrls = array(
     );
 
 define("BASE_PATH", __DIR__);
-define("BASE_URL", $baseUrls[$_SERVER['SERVER_NAME']] ?: "https://staging.hack-for-good.de");
+define("BASE_URL", $baseUrls[$_SERVER['SERVER_NAME']] ?: "https://hack-for-good.de");
 
 require_once "defaultpage.inc.php";
