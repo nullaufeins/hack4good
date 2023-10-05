@@ -33,7 +33,7 @@
                 <?php require_once "../menu.inc.php"; ?>
             </nav>
             <div class="participate-line">
-                <a href="https://www.meetup.com/opentechschool-leipzig/events/288270934/" target="_blank"
+                <a href="" target="_blank"
                     rel="noopener noreferer"><?= $language == "de" ? "anmelden" : "participate" ?></a>
             </div>
         </header>
