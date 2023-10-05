@@ -134,11 +134,13 @@ header .logo-line {
 header .logo-line img {
   width: clamp(300px, 50vw, 400px);
 }
-header .participate-line {
+
+.participate-line {
   display: flex;
+  justify-content: center;
   margin: 2.5em 0;
 }
-header .participate-line a {
+.participate-line a {
   color: white;
   background-color: #FD1D53;
   text-decoration: none;
@@ -146,7 +148,7 @@ header .participate-line a {
   border-radius: 2em;
   padding: 1em 2em;
 }
-header .participate-line a:hover {
+.participate-line a:hover {
   background-color: #F706CF;
 }
 
