@@ -1,7 +1,7 @@
 <div id="ngos" class="ngos">
     <h2>Wir unterstützen gemeinnützige Projekte</h2>
     <div class="participate-line">
-        <a href="https://form.typeform.com/to/Ds9m6LyI" target="_blank" rel="noopener noreferer">
+        <a href="https://form.typeform.com/to/Ds9m6LyI" target="_blank" rel="noopener noreferer" class="snowflake">
           <?= $language == "de" ? "jetzt bewerben" : "apply now" ?>
         </a>
     </div>

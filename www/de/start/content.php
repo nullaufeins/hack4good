@@ -3,7 +3,7 @@
         <h1 class="hero">Hacken für das Gute</h1>
         <h2 class="hero">8. - 10. Dezember 2023, Leipzig</h2>
         <div class="participate-line">
-          <a href="" target="_blank" rel="noopener noreferer">
+          <a href="" target="_blank" rel="noopener noreferer" class="snowflake">
             <?= $language == "de" ? "mitmachen" : "participate" ?>
           </a>
         </div>
