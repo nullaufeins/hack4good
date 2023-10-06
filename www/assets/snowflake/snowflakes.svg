@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="535px" height="392px" viewBox="0 0 535 392" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="3.80134046%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#3E00FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#3E00FF" stop-opacity="0.766998291" offset="36.8477486%"></stop>
+            <stop stop-color="#3E00FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-13" transform="translate(80.000000, 8.000000)" fill="url(#linearGradient-1)">
+            <polygon id="Fill-12" points="231 0 196.016812 0 188 188"></polygon>
+            <polygon id="Fill-12-Copy" transform="translate(166.500000, 282.000000) rotate(-180.000000) translate(-166.500000, -282.000000) " points="188 188 153.016812 188 145 376"></polygon>
+            <polygon id="Fill-12-Copy-3" transform="translate(280.156388, 159.619546) rotate(60.000000) translate(-280.156388, -159.619546) " points="301.656388 65.6195462 266.6732 65.6195462 258.656388 253.619546"></polygon>
+            <polygon id="Fill-12-Copy-2" transform="translate(95.843612, 216.380454) rotate(-120.000000) translate(-95.843612, -216.380454) " points="117.343612 122.380454 82.3604243 122.380454 74.343612 310.380454"></polygon>
+            <polygon id="Fill-12-Copy-7" transform="translate(253.619546, 117.343612) rotate(-330.000000) translate(-253.619546, -117.343612) " points="275.119546 23.343612 240.136358 23.343612 232.119546 211.343612"></polygon>
+            <polygon id="Fill-12-Copy-6" transform="translate(122.380454, 258.656388) rotate(-150.000000) translate(-122.380454, -258.656388) " points="143.880454 164.656388 108.897266 164.656388 100.880454 352.656388"></polygon>
+            <polygon id="Fill-12-Copy-5" transform="translate(282.000000, 209.500000) rotate(-270.000000) translate(-282.000000, -209.500000) " points="303.5 115.5 268.516812 115.5 260.5 303.5"></polygon>
+            <polygon id="Fill-12-Copy-4" transform="translate(94.000000, 166.500000) rotate(-90.000000) translate(-94.000000, -166.500000) " points="115.5 72.5 80.5168123 72.5 72.5 260.5"></polygon>
+            <polygon id="Fill-12-Copy-11" transform="translate(258.656388, 253.619546) rotate(-240.000000) translate(-258.656388, -253.619546) " points="280.156388 159.619546 245.1732 159.619546 237.156388 347.619546"></polygon>
+            <polygon id="Fill-12-Copy-10" transform="translate(117.343612, 122.380454) rotate(-60.000000) translate(-117.343612, -122.380454) " points="138.843612 28.3804538 103.860424 28.3804538 95.843612 216.380454"></polygon>
+            <polygon id="Fill-12-Copy-9" transform="translate(216.380454, 280.156388) rotate(-210.000000) translate(-216.380454, -280.156388) " points="237.880454 186.156388 202.897266 186.156388 194.880454 374.156388"></polygon>
+            <polygon id="Fill-12-Copy-8" transform="translate(159.619546, 95.843612) rotate(-30.000000) translate(-159.619546, -95.843612) " points="181.119546 1.84361204 146.136358 1.84361204 138.119546 189.843612"></polygon>
+        </g>
+    </g>
+</svg>
