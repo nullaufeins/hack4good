@@ -1,7 +1,7 @@
 <div class="leading">
-    <a href="">Legal Notice</a>
-    <a href="">Code of Conduct</a>
-    <a href="">Privacy</a>
+    <a href="<?= BASE_URL ?>/<?= $language == "de" ? "de/" : "en/" ?>/legal"><?= $language == "de" ? "Impressum" : "Legal Notice" ?></a>
+    <a href="<?= BASE_URL ?>/<?= $language == "de" ? "de/" : "en/" ?>/legal">Code of Conduct</a>
+    <a href="<?= BASE_URL ?>/<?= $language == "de" ? "de/" : "en/" ?>/legal"><?= $language == "de" ? "Datenschutz" : "Data Privacy" ?></a>
 </div>
 <div class="trailing">
     <div class="contact">
