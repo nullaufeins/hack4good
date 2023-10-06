@@ -1,12 +1,37 @@
 <div id="ngos" class="ngos">
-    <h2>Participating NGOs</h2>
+    <h2>We support you and your nonprofit projects</h2>
+    <div class="participate-line">
+        <a href="https://form.typeform.com/to/Ds9m6LyI" target="_blank" rel="noopener noreferer" class="snowflake">
+          <?= $language == "de" ? "jetzt bewerben" : "apply now" ?>
+        </a>
+    </div>
     <p>
-        We're gathering not for profit organizations doing work on social, environmental and economic sustainability
-        to share their work, frustrations and goals. With this information, attendees will form teams to build
-        solutions for the non profit of their choice.<br />
-
-        More information soon!
+        We are a community of volunteers, people passionate about design and code, from the Leipzig area, 
+        who are eager to use their skills in the realms of digital, creative, and technology for a good cause.
     </p>
+    <p>
+        We warmly invite you to participate in our annual 3rd Hackolaus weekend from December 8th to 10th, 2023, 
+        or better yet, to bring your problem to the event. We are happy to help.
+    </p>
+    <h2>How is this going to work?</h2>
+    <p>
+        During a hackathon, hacking goes on non-stop - that is, tinkering, brainstorming, designing, and programming. Because that is our passion.
+        However, we would like to combine this passion with something useful and work on topics that create added value for others (e.g., you), so that we may help solve a small problem for your passion... A balance between giving and receiving for all of us, so to speak.
+        And since you always give a lot, you should be allowed to take this weekend. Of course, at no cost!
+    </p>
+    <h2>Who solves the problem?</h2>
+    <p>
+        At the beginning of a hackathon, all ideas/wishes/problems are pitched, which means the problem is presented to all participants, and the context is explained.
+        Afterwards, volunteers can come together who are interested in working on that specific problem, and then we get started!
+    </p>
+    <h2>How to take part?</h2>
+    <p>
+        Your part would be to apply to us with your problem using <a href="https://form.typeform.com/to/Ds9m6LyI" target="_blank" rel="noopener noreferrer">the form linked here</a>.
+        If you're in, you'll present your challenge during the Hackolaus weekend, and we can get started. 
+        By the way, this is a great opportunity to introduce your association/project work to a wider audience and 
+        potentially receive support in other ways as well!
+    </p>
+
     <!-- <p>
         <strong>
           If you know a project or organisation that needs help, <a href="mailto:events@nullaufeins.org ">please
