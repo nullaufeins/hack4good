@@ -163,7 +163,7 @@ nav {
   justify-content: center;
   margin: 0.5em 0.5em;
 }
-nav .nav-item {
+nav .nav-item, nav .nav-item-active {
   margin: 0 0.5em;
   color: #F9C80E;
   text-decoration: none;
@@ -172,18 +172,21 @@ nav .nav-item {
   margin-bottom: 0.6em;
 }
 @media (min-width: 750px) {
-  nav .nav-item {
+  nav .nav-item, nav .nav-item-active {
     margin: 0 0.8em;
   }
 }
-nav .nav-item:after {
+nav .nav-item:after, nav .nav-item-active:after {
   display: block;
   content: "";
   opacity: 0;
   height: 3px;
   background-color: #F9C80E;
 }
-nav .nav-item:hover:after {
+nav .nav-item-active:after {
+  opacity: 0.8;
+}
+nav .nav-item:hover:after, nav .nav-item-active:hover:after {
   opacity: 1;
   transition: opacity 200ms ease-in;
 }

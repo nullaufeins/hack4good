@@ -18,4 +18,5 @@ $baseUrls = array(
 define("BASE_PATH", __DIR__);
 define("BASE_URL", $baseUrls[$_SERVER['SERVER_NAME']] ?: "https://hack-for-good.de");
 
+require_once "mainmenu.inc.php";
 require_once "defaultpage.inc.php";
