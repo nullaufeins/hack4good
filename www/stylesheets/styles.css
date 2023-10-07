@@ -307,22 +307,62 @@ footer .footer-content .trailing .social-media .icon {
   flex: 1;
 }
 
-.start {
+.community {
   display: flex;
-  flex-direction: column;
-  gap: 1em;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
 }
-@media (min-width: 900px) {
-  .start {
-    flex-direction: row;
+.community .entry {
+  width: 46%;
+  margin-bottom: 2em;
+}
+.community .entry img {
+  width: 100%;
+}
+@media (min-width: 600px) {
+  .community .entry {
+    width: 22%;
   }
 }
-.start .graphic {
-  min-width: 40%;
+
+.roles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
 }
-.start .graphic img {
-  max-width: 70%;
-  margin: 3em 15%;
+@media (min-width: 600px) {
+  .roles {
+    flex-direction: row;
+    gap: 2em;
+  }
+}
+.roles .role {
+  width: 100%;
+}
+@media (min-width: 600px) {
+  .roles .role {
+    width: 350px;
+  }
+}
+
+.role h3:after {
+  display: block;
+  content: "";
+  background-color: #FD1D53;
+  height: 2px;
+  width: 40%;
+  transition: width 600ms ease-out;
+  transform-origin: left;
+}
+.role h3:hover:after {
+  width: 70%;
+  transition: width 200ms ease-in;
 }
 
 .sponsoring-packages {
@@ -400,25 +440,22 @@ footer .footer-content .trailing .social-media .icon {
   }
 }
 
-.community {
+.start {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 1em;
 }
-.community .entry {
-  width: 46%;
-  margin-bottom: 2em;
-}
-.community .entry img {
-  width: 100%;
-}
-@media (min-width: 600px) {
-  .community .entry {
-    width: 22%;
+@media (min-width: 900px) {
+  .start {
+    flex-direction: row;
   }
+}
+.start .graphic {
+  min-width: 40%;
+}
+.start .graphic img {
+  max-width: 70%;
+  margin: 3em 15%;
 }
 
 /*# sourceMappingURL=styles.css.map */

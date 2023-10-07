@@ -53,7 +53,6 @@
                     got all it takes.
                 </p>
             </div>
-            <div style="height:20px;"></div>
         </div>
         <div class="participate-line">
             <a href="" target="_blank" rel="noopener noreferer" class="snowflake">
