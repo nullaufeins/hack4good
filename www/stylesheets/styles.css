@@ -15,6 +15,7 @@ html, body {
 body {
   font-family: Archivo, Arial, sans-serif;
   font-size: 18px;
+  font-weight: 200;
   color: #F9C80E;
   background-color: #2E2157;
 }
