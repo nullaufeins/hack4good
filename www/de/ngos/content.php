@@ -20,6 +20,19 @@
         so dass wir eurer Leidenschaft vielleicht ein kleines Problem aus dem Weg schaffen können... Eine Balance zwischen Geben und Nehmen für uns alle quasi. 
         Und da ihr immer viel gebt, sollt ihr an diesem Wochenende einmal nehmen dürfen. Natürlich ohne Kosten!
     </p>
+    <h2>Was für Probleme können gelöst werden?</h2>
+    <p>Diese Frage ist leider nicht so leicht zu beantworten. Das Problem muss vom Umfang und der Art her zu dem 
+        Veranstaltungsformat passen. Wir können und wollen z.B. keine professionelle Softwareentwicklung anbieten. 
+        Wir haben daher <a href="https://form.typeform.com/to/Ds9m6LyI" target="_blank" rel="noopener noreferrer">das Formular</a> entwickelt, das uns hilft, eure Herausforderung besser zu verstehen.  
+        Ihr könnt überlegen, ob euer Problem sich in eine der folgenden Kategorien sortieren lässt:</p>
+        <ul>
+                <li><b>Anwendung</b>: Ihr braucht die Entwicklung / Verbesserung einer Website oder einer Anwendung zur Unterstützung bei bestehenden, organisatorischen Problemen</li>
+                <li><b>Design</b>: Ihr sucht nach visuellen Elementen zur Unterstützung der Kommunikation eurer Ziele und/oder Organisation</li>
+                <li><b>Daten</b>: Ihr sucht nach visuellen oder technischen Lösungen, um Eure bestehenden Datensätze zu nutzen, auszuwerten und/oder die Ergebnisse Eurer Organisation zu präsentieren oder zu verbessern</li>
+        </ul>
+        <p>Wenn nicht, gebt uns eine möglichst genaue Beschreibung des Problems und von den Personen, die von dem Problem direkt (und/oder indirekt) betroffen sind 
+            und welche Folgen das Problem für die Betroffenen hat. </p>
+
     <h2>Wer löst das Problem?</h2>
     <p>
         Am Anfang eines Hackathons werden alle Ideen/Wünsche/Probleme gepitcht, das heißt, vor allen Teilnehmenden wird das Problem vorgestellt und der Zusammenhang erläutert.

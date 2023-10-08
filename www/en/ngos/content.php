@@ -19,6 +19,17 @@
         However, we would like to combine this passion with something useful and work on topics that create added value for others (e.g., you), so that we may help solve a small problem for your passion... A balance between giving and receiving for all of us, so to speak.
         And since you always give a lot, you should be allowed to take this weekend. Of course, at no cost!
     </p>
+    <h2>What kind of problem?</h2>
+    <p>This question is unfortunately not easy to answer. The problem needs to match the scope and nature of the event format.
+        We cannot and do not offer e.g. professional software development. Therefore, we have developed 
+        <a href="https://form.typeform.com/to/Ds9m6LyI" target="_blank" rel="noopener noreferrer">a form</a> that helps us better 
+        understand your challenge. You can consider whether your problem can be categorized into one of the following categories:
+        <ul>
+                <li><b>Application</b>: You need the development/improvement of a website or application to support existing organizational issues.</li>
+                <li><b>Design</b>: You are looking for visual elements to support the communication of your goals and/or organization.</li>
+                <li><b>Data</b>: You are seeking visual or technical solutions to utilize, analyze, and/or present the results of your organization or improve existing data records.</li>
+        </ul>
+        <p>If not, please provide us with the most detailed description of the problem and the individuals directly (and/or indirectly) affected by it, as well as the consequences of the problem for those involved.</p>
     <h2>Who solves the problem?</h2>
     <p>
         At the beginning of a hackathon, all ideas/wishes/problems are pitched, which means the problem is presented to all participants, and the context is explained.
