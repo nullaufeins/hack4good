@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "sass": "^1.69.0"
+  },
+  "scripts": {
+    "dev": "sass --watch --style=expanded stylesheets/:stylesheets/",
+    "prod": "sass --style=compressed --no-source-map stylesheets/:stylesheets/"
+  }
+}

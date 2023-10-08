@@ -1,0 +1,39 @@
+$font-text: Archivo, Arial, sans-serif
+$font-weight: 200
+$font-heading: 'Darker Grotesque', Arial, sans-serif
+$max-width: 1400px
+
+body
+    font-family: $font-text
+    font-size: 18px
+    font-weight: $font-weight
+    color: $color-text
+    background-color: $color-background
+
+    +tablet
+        font-size: 20px
+
+h1, h2, h3
+    font-family: $font-heading
+    line-height: 1em
+
+h1
+    font-size: 3em
+
+h2
+    font-size: 2.2em
+
+h3
+    font-size: 1.6em
+
+
+p, li
+    line-height: 1.8em
+    max-width: 50em
+
+a
+    text-decoration: none
+    color: $color-sunset
+
+a:hover
+    color: $color-sunrise

@@ -1,1 +1,4 @@
 .DS_Store
+.vscode/launch.json
+node_modules/
+www/stylesheets/styles.css.map

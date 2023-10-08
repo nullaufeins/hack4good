@@ -1,0 +1,66 @@
+.sponsoring-packages
+    display: flex
+    flex-direction: column
+
+    .package
+        display: flex
+        flex-direction: column
+        gap: 5%
+        align-items: center
+        margin: 1em
+
+        +tablet
+            flex-direction: row
+
+        .content
+            width: 100%
+
+            h3
+                span
+                    white-space: nowrap
+
+        .logo
+            display: flex
+            width: 100%
+            min-width: 150px
+            justify-content: center
+            align-items: center
+
+            +tablet
+                width: 35%
+                min-width: 150px
+
+
+            .reindeer
+                width: 40%
+                min-width: 140px
+                margin: 0 auto
+
+                +tablet
+                    margin: 1em
+                    width: 80%
+                    min-width: 180px
+                    max-width: 250px
+
+            .elve
+                width: 38%
+                min-width: 130px
+                margin: 0 auto
+
+                +tablet
+                    margin: 1em
+                    width: 75%
+                    min-width: 160px
+                    max-width: 240px
+
+            .gingerbread
+                width: 20%
+                min-width: 80px
+                margin: 0 auto
+
+                +tablet
+                    margin: 1em
+                    width: 40%
+                    min-width: 80px
+                    max-width: 170px
+

@@ -1,0 +1,31 @@
+nav
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    margin: .5em .5em
+
+    .nav-item, .nav-item-active
+        margin: 0 .5em
+        color: $color-text
+        text-decoration: none
+        text-transform: uppercase
+        padding-bottom: .2em
+        margin-bottom: .6em
+
+        +tablet-large
+            margin: 0 .8em
+
+    .nav-item:after, .nav-item-active:after
+        display: block
+        content: ''
+        opacity: 0
+        height: 3px
+        background-color: $color-text
+
+    .nav-item-active:after
+        opacity: .8
+
+    .nav-item:hover:after, .nav-item-active:hover:after
+        opacity: 1
+        transition: opacity 200ms ease-in
+    

@@ -2,7 +2,9 @@ pipeline:
   prepare-env:
     image: nullaufeins/build-agent
     commands:
-      - echo "export SITE=hack-for-good.de" > pipeline.env
+      - export SITE="staging.hack-for-good.de"
+      - test "$CI_COMMIT_BRANCH" = "main" && export SITE="hack-for-good.de"
+      - echo "export SITE=$SITE" > pipeline.env
       - cat pipeline.env
 
   build:
@@ -19,4 +21,4 @@ pipeline:
       - source ./pipeline.env
       - cat store_path | xargs deploy-website "$SITE"
 
-branches: [ main ]
+branches: [ main, staging ]

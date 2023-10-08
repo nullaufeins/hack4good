@@ -1,0 +1,33 @@
+.roles
+
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    justify-content: flex-start
+    width: 100%
+    flex-wrap: wrap
+
+    +tablet
+        flex-direction: row
+        gap: 2em
+
+    .role
+        width: 100%
+
+        +tablet
+            width: 350px
+
+
+.role
+    h3:after
+        display: block
+        content: ''
+        background-color: $color-sunset
+        height: 2px
+        width: 40%
+        transition: width 600ms ease-out
+        transform-origin: left
+
+    h3:hover:after 
+        width: 70%
+        transition: width 200ms ease-in
