@@ -1,6 +1,7 @@
 <div class="faq" id="faq">
     <h2>FAQ</h2>
-    <div>
+    <p>tbd</p>
+    <!-- <div>
         <h3>Is there a Code of Conduct?</h3>
         <p>Yes, you can find it <a href="code-of-conduct" target="_blank">HERE</a>. If a Code of Conduct incident
             happens to you, or you witness it happening to someone else,
@@ -38,4 +39,4 @@
         <h3>I have another question, how can I contact you?</h3>
         <p>Just send us an <a href="mailto:events@nullaufeins.org">email</a>.</p>
     </div>
-</div>
+</div> -->
