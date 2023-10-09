@@ -3,7 +3,7 @@
         <h1 class="hero">hackathon to give back to the good</h1>
         <h2 class="hero">Dez 8th - 10th 2023, Leipzig</h2>
         <div class="participate-line">
-          <a href="" target="_blank" rel="noopener noreferer" class="snowflake">
+          <a href="https://www.meetup.com/opentechschool-leipzig/events/296542110/" target="_blank" rel="noopener noreferer" class="snowflake">
             <?= $language == "de" ? "mitmachen" : "participate" ?>
           </a>
         </div>
