@@ -2,18 +2,19 @@ nav
     display: flex
     flex-wrap: wrap
     justify-content: center
-    margin: .5em .5em
+    margin: 2em .5em 2em .5em
 
     .nav-item, .nav-item-active
         margin: 0 .5em
         color: $color-text
+        font-weight: 600
         text-decoration: none
         text-transform: uppercase
         padding-bottom: .2em
         margin-bottom: .6em
 
         +tablet-large
-            margin: 0 .8em
+            margin-inline: .8em
 
     .nav-item:after, .nav-item-active:after
         display: block
