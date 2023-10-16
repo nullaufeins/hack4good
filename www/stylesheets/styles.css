@@ -45,6 +45,7 @@ h3 {
 p, li {
   line-height: 1.8em;
   max-width: 50em;
+  letter-spacing: 0.6px;
 }
 
 a {
@@ -68,7 +69,6 @@ a:hover {
 @media (min-width: 600px) {
   .site-wrapper {
     margin-bottom: -3em;
-    padding: 0 4vw 3.5em 4vw;
   }
 }
 
@@ -129,7 +129,7 @@ header {
 header .logo-line {
   display: flex;
   justify-content: center;
-  margin-top: 1em;
+  margin-top: 0.5em;
   margin-bottom: 1em;
 }
 header .logo-line img {
@@ -162,11 +162,12 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0.5em 0.5em;
+  margin: 2em 0.5em 2em 0.5em;
 }
 nav .nav-item, nav .nav-item-active {
   margin: 0 0.5em;
   color: #F9C80E;
+  font-weight: 600;
   text-decoration: none;
   text-transform: uppercase;
   padding-bottom: 0.2em;
@@ -174,7 +175,7 @@ nav .nav-item, nav .nav-item-active {
 }
 @media (min-width: 750px) {
   nav .nav-item, nav .nav-item-active {
-    margin: 0 0.8em;
+    margin-inline: 0.8em;
   }
 }
 nav .nav-item:after, nav .nav-item-active:after {
@@ -271,13 +272,18 @@ footer .footer-content .trailing .social-media .icon {
 }
 
 .snowflake:before {
-  display: block;
+  display: none;
   content: url(../assets/snowflake/snowflakes.svg);
   position: absolute;
   right: -150px;
   top: -160px;
   z-index: -10;
   opacity: 0;
+}
+@media (min-width: 600px) {
+  .snowflake:before {
+    display: block;
+  }
 }
 
 .snowflake:hover:before {
