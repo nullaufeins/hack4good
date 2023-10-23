@@ -7,9 +7,9 @@ $menu = array(
         "/en/participate" => "Participate",
         "/en/ngos" => "Projects",
         "/en/community" => "Community",
-        "/en/supporters" => "Supporters",
-        "/en/venue" => "Agenda & Venue",
-        "/en/faq" => "FAQ",
+       // "/en/supporters" => "Supporters",
+       // "/en/venue" => "Agenda & Venue",
+       // "/en/faq" => "FAQ",
         "/de/start" => "DE",
     ),
 
@@ -18,9 +18,9 @@ $menu = array(
         "/de/participate" => "Mitmachen",
         "/de/ngos" => "Projekte",
         "/de/community" => "Community",
-        "/de/supporters" => "Unterstützer",
-        "/de/venue" => "Ablauf & Ort",
-        "/de/faq" => "FAQ",
+       // "/de/supporters" => "Unterstützer",
+       // "/de/venue" => "Ablauf & Ort",
+       // "/de/faq" => "FAQ",
         "/en/start" => "EN",
     )
 );

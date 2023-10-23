@@ -1,7 +1,7 @@
 <div id="ngos" class="ngos">
     <h2>Wir unterstützen euch und eure gemeinnützigen Projekte</h2>
     <div class="participate-line">
-        <a href="https://form.typeform.com/to/Ds9m6LyI" target="_blank" rel="noopener noreferer" class="snowflake">
+        <a href="mailto:events@nullaufeins.org" class="snowflake">
           <?= $language == "de" ? "jetzt bewerben" : "apply now" ?>
         </a>
     </div>
@@ -22,8 +22,7 @@
     </p>
     <h2>Was für Probleme können gelöst werden?</h2>
     <p>Diese Frage ist leider nicht so leicht zu beantworten. Das Problem muss vom Umfang und der Art her zu dem 
-        Veranstaltungsformat passen. Wir können und wollen z.B. keine professionelle Softwareentwicklung anbieten. 
-        Wir haben daher <a href="https://form.typeform.com/to/Ds9m6LyI" target="_blank" rel="noopener noreferrer">das Formular</a> entwickelt, das uns hilft, eure Herausforderung besser zu verstehen.  
+        Veranstaltungsformat passen. Wir können und wollen z.B. keine professionelle Softwareentwicklung anbieten.  
         Ihr könnt überlegen, ob euer Problem sich in eine der folgenden Kategorien sortieren lässt:</p>
         <ul>
                 <li><b>Anwendung</b>: Ihr braucht die Entwicklung / Verbesserung einer Website oder einer Anwendung zur Unterstützung bei bestehenden, organisatorischen Problemen</li>
@@ -40,7 +39,7 @@
     </p>
     <h2>Wie kann man mitmachen?</h2>
     <p>
-        Euer Part wäre es, euch mit eurem das Problem bei uns zu bewerben, nutzt dazu bitte <a href="https://form.typeform.com/to/Ds9m6LyI" target="_blank" rel="noopener noreferrer">das Formular, was hier verlinkt ist</a>.
+        Euer Part wäre es, euch mit eurem das Problem bei uns zu bewerben.
         Seid ihr dabei, stellt ihr am Hackolaus-Wochenende eure Herausforderung vor und es kann losgehen. 
         Übrigens ist das eine sehr gute Gelegenheit, eure Vereins-/Projektarbeit einer breiteren Masse vorzustellen und somit vielleicht 
         auch noch auf andere Weise Unterstützung zu erhalten!

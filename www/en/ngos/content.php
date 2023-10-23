@@ -1,7 +1,7 @@
 <div id="ngos" class="ngos">
     <h2>We support you and your nonprofit projects</h2>
     <div class="participate-line">
-        <a href="https://form.typeform.com/to/Ds9m6LyI" target="_blank" rel="noopener noreferer" class="snowflake">
+        <a href="mailto:events@nullaufeins.org" class="snowflake">
           <?= $language == "de" ? "jetzt bewerben" : "apply now" ?>
         </a>
     </div>
@@ -21,9 +21,7 @@
     </p>
     <h2>What kind of problem?</h2>
     <p>This question is unfortunately not easy to answer. The problem needs to match the scope and nature of the event format.
-        We cannot and do not offer e.g. professional software development. Therefore, we have developed 
-        <a href="https://form.typeform.com/to/Ds9m6LyI" target="_blank" rel="noopener noreferrer">a form</a> that helps us better 
-        understand your challenge. You can consider whether your problem can be categorized into one of the following categories:
+        We cannot and do not offer e.g. professional software development. You can consider whether your problem can be categorized into one of the following categories:
         <ul>
                 <li><b>Application</b>: You need the development/improvement of a website or application to support existing organizational issues.</li>
                 <li><b>Design</b>: You are looking for visual elements to support the communication of your goals and/or organization.</li>
@@ -37,7 +35,7 @@
     </p>
     <h2>How to take part?</h2>
     <p>
-        Your part would be to apply to us with your problem using <a href="https://form.typeform.com/to/Ds9m6LyI" target="_blank" rel="noopener noreferrer">the form linked here</a>.
+        Your part would be to contact us with your problem.
         If you're in, you'll present your challenge during the Hackolaus weekend, and we can get started. 
         By the way, this is a great opportunity to introduce your association/project work to a wider audience and 
         potentially receive support in other ways as well!

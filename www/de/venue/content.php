@@ -6,7 +6,7 @@
     <h2>Agenda</h2>
     <div class="days">
         <div>
-            <h3>Freitag,<br>8. Dezember 23</h3>
+            <h3>Freitag,<br></h3>
             <ul>
                 <li>18:00 - Die Türen sind geöffnet 🤗</li>
                 <li>19:00 - Willkommen & NGO Panel Session</li>
@@ -15,7 +15,7 @@
             </ul>
         </div>
         <div>
-            <h3>Samstag,<br>9. Dezember 23</h3>
+            <h3>Samstag,<br></h3>
             <p>tbd</p>
             <!-- <ul>
                 <li>10:00 - Doors open 🤗</li>
@@ -38,7 +38,7 @@
             </ul> -->
         </div>
         <div>
-            <h3>Sonntag,<br>10. Dezember 23</h3>
+            <h3>Sonntag,<br></h3>
             <p>tbd</p>
             <!-- <ul>
                 <li>10:00 - Doors open 🤗</li>

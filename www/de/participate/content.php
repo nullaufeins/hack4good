@@ -7,7 +7,7 @@
       </p>
       <div class="roles">
         <div class="role">
-          <a href="https://www.meetup.com/opentechschool-leipzig/events/296542110/" target="_blank"
+          <a href="" target="_blank"
             rel="noopener noreferrer">
             <h3>Creative</h3>
           </a>
@@ -17,7 +17,7 @@
           </p>
         </div>
         <div class="role">
-          <a href="https://www.meetup.com/opentechschool-leipzig/events/296542110/" target="_blank"
+          <a href="" target="_blank"
             rel="noopener noreferrer">
             <h3>Motivator</h3>
           </a>
@@ -27,7 +27,7 @@
           </p>
         </div>
         <div class="role">
-          <a href="https://www.meetup.com/opentechschool-leipzig/events/296542110/" target="_blank"
+          <a href="" target="_blank"
             rel="noopener noreferrer">
             <h3>Techie</h3>
           </a>
@@ -38,7 +38,7 @@
           </p>
         </div>
         <div class="role">
-          <a href="https://www.meetup.com/opentechschool-leipzig/events/296542110/" target="_blank"
+          <a href="" target="_blank"
             rel="noopener noreferrer">
             <h3>Idea Giver</h3>
           </a>
@@ -48,7 +48,7 @@
           </p>
         </div>
         <div class="role" id="join-button">
-          <a href="https://www.meetup.com/opentechschool-leipzig/events/296542110/" target="_blank"
+          <a href="" target="_blank"
             rel="noopener noreferrer">
             <h3>Super Hero</h3>
           </a>
@@ -59,11 +59,11 @@
           <div style="height:20px;"></div>
         </div>
         
-        <div class="participate-line">
-          <a href="https://www.meetup.com/opentechschool-leipzig/events/296542110/" target="_blank" rel="noopener noreferer" class="snowflake">
+        <!-- <div class="participate-line">
+          <a href="" target="_blank" rel="noopener noreferer" class="snowflake">
             <?= $language == "de" ? "mitmachen" : "join the hackolaus" ?>
           </a>
-        </div>
+        </div> -->
       </div>
     </div>
 

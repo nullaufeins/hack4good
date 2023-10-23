@@ -1,12 +1,12 @@
 <div class="start">
     <div class="content">
         <h1 class="hero">Hack for Good</h1>
-        <h2 class="hero">8. - 10. Dezember 2023, Leipzig</h2>
-        <div class="participate-line">
-          <a href="https://www.meetup.com/opentechschool-leipzig/events/296542110/" target="_blank" rel="noopener noreferer" class="snowflake">
+        <h2 class="hero">2024, Leipzig</h2>
+        <!-- <div class="participate-line">
+          <a href="" target="_blank" rel="noopener noreferer" class="snowflake">
             <?= $language == "de" ? "mitmachen" : "participate" ?>
           </a>
-        </div>
+        </div> -->
         <p>
             Viele Organisationen, Vereine und Einzelpersonen unserer Region sind unermüdlich, oft ehrenamtlich, für gemeinnützige Projekte tätig, 
             engagieren sich im sozialen Bereich oder setzen sich für Umwelt- und Nachhaltigkeitsanliegen ein. Wir sind der Meinung, 
