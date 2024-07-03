@@ -1,5 +1,9 @@
-pipeline:
-  prepare-env:
+when:
+  - branch: [main, staging]
+    event: [push, manual]
+
+steps:
+  - name: prepare-env
     image: nullaufeins/build-agent
     commands:
       - export SITE="staging.hack-for-good.de"
@@ -7,7 +11,7 @@ pipeline:
       - echo "export SITE=$SITE" > pipeline.env
       - cat pipeline.env
 
-  build:
+  - name: build
     image: nullaufeins/build-agent
     commands:
       - source ./pipeline.env
@@ -15,10 +19,8 @@ pipeline:
       - mv www/ "$DEST_DIR"
       - nix-store --add "$DEST_DIR" --store "ssh-ng://$BUILD_HOST" > store_path
 
-  deploy:
+  - name: deploy
     image: nullaufeins/build-agent
     commands:
       - source ./pipeline.env
       - cat store_path | xargs deploy-website "$SITE"
-
-branches: [ main, staging ]
